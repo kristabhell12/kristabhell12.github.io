@@ -27,5 +27,6 @@ sed -i 's#Jan#Ene#g' index.html
 sed -i 's#Apr,#Abr#g' index.html
 sed -i 's%</script></body>%</script>\n del\n</body>%g' index.html
 sed -i '/del/r googleCode' index.html
+sed -i 's#Espanish, English, Japanish</span></div>#Espanish, English, Japanish</span></div><div class="detail"><span class="icon" title="Descarga Hoja de vida"><i class="icon fs-lg icon-circle"></i></span><span class="info"><a href="cvGio.pdf" download=""> Descarga CV (2 paginas)</a></span></div>#g' index.html
 rm ../docs/index.html
 cp index.html ../docs/index.html

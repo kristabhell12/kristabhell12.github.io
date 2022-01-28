@@ -7,7 +7,7 @@
 	"basics": {
 		"name": "Giovannka Ninoska Antia Oliver Ferrufino",
 		"label": "WINDOWS | LINUX | PYTHON| ANALISIS DE DATOS | PHP | JAVASCRIPT | CYBERSECURITY |INFORMATICA FORENCE|CRIPTOGRAFIA",
-		"picture": "https://media-exp1.licdn.com/dms/image/C5103AQGgNBbXTYzXmA/profile-displayphoto-shrink_200_200/0/1583335859647?e=1640217600&v=beta&t=tUGllNbV2mbQVK-OwLAnkInYWlM72CuqZ0CBRzVxUX4",
+		"picture": "profile.jpeg",
 		"email": "kristabhell@gmail.com",
 		"phone": "75871499",
 		"website": "",
@@ -25,12 +25,12 @@
 			{
 				"network": "Twitter",
 				"username": "@GiovannkaOF",
-				"url": "https://twitter.com/GiovannkaOF?t=O8Xmdo1v7uS7VcR1m0jLNg&s=09"
+				"url": "https://twitter.com/GiovannkaOF"
 			},
 			{
 				"network": "GitHub",
 				"username": "kristabhell12",
-				"url": "https://github.com/kristabhell12/kristabhell/edit/main/README.md"
+				"url": "https://github.com/kristabhell12"
 			}
 
 		]
@@ -151,8 +151,8 @@
 			"institution": "Universidad Mayor de San Andrés",
 			"website": "https://www.umsa.bo/",
 			"url": "https://www.umsa.bo/",
-			"area": "Ciencias de la computación",
-			"studyType": "Licenciatura",
+			"area": "Mención en Ciencias de la computación",
+			"studyType": "Licenciatura en Informática",
 			"startDate": "2012-06-10",
 			"endDate": "2019-12-15",
 			"gpa": "",
