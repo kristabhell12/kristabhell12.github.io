@@ -1,0 +1,20 @@
+cd papirus
+resume export index.html -t .
+rm ../resumePdf/index.html
+cp index.html ../resumePdf
+cd ../resumePdf
+sed -i 's#Contact</span>#Contacto</span>#g' index.html
+sed -i 's#Education</span>#Educación</span>#g' index.html
+sed -i 's#Skills</span>#Habilidades</span>#g' index.html
+sed -i 's#Summary</span>#Resumen</span>#g' index.html
+sed -i 's#Experience</span>#Experiencia Laboral</span>#g' index.html
+sed -i 's#Volunteer</span>#Trabajo Voluntario</span>#g' index.html
+sed -i 's#Languages</span>#Lenguajes</span>#g' index.html
+sed -i 's#Espanish#Español#g' index.html
+sed -i 's#<em>Native Speaker</em>#<em>Lenguaje nativo</em>#g' index.html
+sed -i 's#English#Ingles#g' index.html 
+sed -i 's#months#meses#g' index.html
+sed -i 's#years#años#g' index.html
+sed -i 's#Jan#Ene#g' index.html
+sed -i 's#Apr #Abr #g' index.html
+sed -i 's#Dec 2017#Dic 2017#g' index.html

@@ -1,0 +1,1127 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+		<title>Giovannka Ninoska Antia Oliver Ferrufino</title>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+		body {
+  background: #E5DED4;
+  font: 15px Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  color: #929292;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 10%;
+}
+
+#resume {
+  border-radius: 5px;
+  border: 1px solid #C7C7C7;
+  overflow: hidden;
+}
+
+section {
+  margin-bottom: 5rem;
+}
+
+[class^="section-"] > .title {
+  text-transform: uppercase;
+  padding: 15px 0;
+  margin: 0;
+}
+
+[class^="section-"] > .title .title-icon,
+[class^="section-"] > .title span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+[class^="section-"] > .title span {
+  margin-left: 2px;
+}
+
+[class^="section-"] > .title .title-icon {
+  background-color: whitesmoke;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.4rem 0.45rem;
+}
+
+/* Sidebar */
+.sidebar {
+  padding: 2rem;
+  background: #333438 !important;
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+
+.sidebar, .sidebar h1, .sidebar h2 {
+  color: #ffffff !important;
+}
+
+.sidebar h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: bold;
+  margin-top: 5rem;
+}
+
+.avatar {
+  margin: 5rem 0;
+  text-align: center;
+}
+
+.avatar img {
+  width: 90%;
+}
+
+.section-education .item {
+  margin-bottom: 3rem;
+}
+
+.section-education .studyTitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.section-education .courses {
+  font-size: 1.2rem;
+}
+.section-education ul.courses {
+  list-style-type: none;
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 0;
+}
+
+.section-education .ul.courses li {
+  margin:0;
+}
+
+.section-education .institution {
+  font-size: 1.2rem;
+}
+
+.section-education .date {
+  font-size: 1.2rem;
+}
+
+.sidebar a:link, .sidebar a:hover, .sidebar a:visited {
+  text-decoration: none;
+  color: #ffffff !important;
+}
+
+/* Content */
+.content {
+  padding: 5rem;
+  background: #FFFFFF;
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+
+.content h1 {
+  color: #3C3C3C;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: 1.0rem;
+  font-weight: bold;
+}
+
+.content h2 {
+  color: #6D6D6D;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: bold;
+  margin-top: 5rem;
+}
+
+.content a:link, .content a:hover, .content a:visited {
+  text-decoration: none;
+  color: #6D6D6D;
+}
+
+/* Sections */
+.section-name {
+  margin: 5rem 0 10rem 0;
+}
+
+.section-name h2 {
+  color: #6D6D6D;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: bold;
+  margin-top: 5rem;
+}
+
+.section-summary {
+  text-align: justify;
+}
+
+.section-work .item {
+  margin-bottom: 2.5rem;
+}
+
+.section-work .item .position {
+  font-weight: bold;
+  color: #333438;
+  text-transform: uppercase;
+}
+
+.section-work .item .company {
+    padding: 0.5rem 0 0.5rem 0;
+    color: #6D6D6D;
+    font-weight: bold;
+}
+
+.section-work .item .summary, .section-work .item .highlights {
+    font-style: italic;
+    text-align: justify;
+}
+
+.section-volunteer .item {
+  margin-bottom: 2.5rem;
+}
+
+.section-volunteer .item .position {
+  font-weight: bold;
+  color: #333438;
+  text-transform: uppercase;
+}
+
+.section-volunteer .item .company {
+    padding: 0.5rem 0 0.5rem 0;
+    color: #6D6D6D;
+    font-weight: bold;
+}
+
+.section-volunteer .item .summary, .section-volunteer .item .highlights {
+    font-style: italic;
+    text-align: justify;
+}
+
+
+.section-publications .item {
+  margin-bottom: 2.5rem;
+}
+
+.section-publications .item .name {
+  font-weight: bold;
+  color: #333438;
+  text-transform: uppercase;
+}
+
+.section-publications .item .publication {
+    padding: 0.5rem 0 0.5rem 0;
+    color: #6D6D6D;
+    font-weight: bold;
+}
+
+.section-publications .item .summary, .section-publications .item .highlights {
+    font-style: italic;
+    text-align: justify;
+}
+
+
+.section-awards .item .title {
+  font-weight: bold;
+  color: #333438;
+}
+
+.section-awards .item .date, .section-awards .item .awarder {
+  font-weight: normal;
+  color: #929292;
+}
+
+.section-awards .item .summary {
+  font-weight: normal;
+  font-style: italic;
+  text-align: justify;
+}
+
+.section-languages .item .language {
+  font-weight: bold;
+  color: #333438;
+}
+
+.section-languages .item .fluency {
+  font-weight: normal;
+  color: #929292;
+}
+
+.section-interests .title {
+  font-weight: bold;
+}
+
+.section-interests .item {
+  margin: 0.8rem 0 0.8rem 0;
+  line-height: 1.9rem;
+}
+
+.section-skills .item {
+  margin-bottom: 1rem;
+}
+
+
+.section-contact .fa {
+  padding: 0.8rem 0 0 0;
+  background: #fff;
+  color: #333438;
+  border-radius: 100rem;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  margin: -0.4rem 0.8rem 0.8rem 0.5rem;
+  float: left;
+}
+
+.section-contact ul.contact {
+  list-style-type: none;
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 0;
+}
+
+.section-contact ul.contact li {
+  margin: 1rem 0 1rem 0;
+}
+
+.section-contact ul.profiles {
+  list-style-type: none;
+  margin: 4rem 0 0.5rem 0;
+  padding: 0;
+}
+
+.section-contact ul.profiles li {
+  margin: 1rem 0 1rem 0;
+}
+
+/* Print */
+@media print {
+  body {
+    font: 10px Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    color: #929292 !important;
+  }
+
+  .container {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  #resume {
+    overflow: hidden;
+    border: none !important;
+  }
+
+  section {
+    margin-bottom: 2.5rem;
+  }
+
+  [class^="section-"] > .title {
+    text-transform: uppercase;
+    padding: 0.7rem 0;
+    margin: 0;
+  }
+
+  [class^="section-"] > .title .title-icon,
+  [class^="section-"] > .title span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  [class^="section-"] > .title span {
+    margin-left: 2px;
+  }
+
+  [class^="section-"] > .title .title-icon {
+    background-color: whitesmoke;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.4rem 0.45rem;
+  }
+
+  /* Sidebar */
+  .sidebar {
+    padding: 2rem;
+    background: #333438 !important;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+		color: #ffffff !important;
+  }
+
+  .sidebar, .sidebar h1, .sidebar h2 {
+    color: #ffffff !important;
+  }
+
+  .sidebar h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    margin-top: 5rem;
+		color: #ffffff !important;
+  }
+
+  .sidebar h2.title span {
+    color: #ffffff !important;
+}
+
+  .avatar {
+    margin: 2rem 0 2rem 1rem;
+    text-align: center;
+  }
+
+  .avatar img {
+    width: 85%;
+  }
+
+  .section-education .item {
+    margin-bottom: 3rem;
+		color: #ffffff !important;
+  }
+
+  .section-education .studyTitle span{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1rem;
+		color: #ffffff !important;
+  }
+
+  .section-education .studyTitle span.badge{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.0rem;
+		color: #ffffff !important;
+    background: #939393 !important;
+  }
+
+  .section-education .courses {
+    font-size: 1.1rem;
+		color: #ffffff !important;
+  }
+
+  .section-education ul.courses {
+    list-style-type: none;
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0;
+  }
+
+  .section-education .ul.courses li {
+    margin:0;
+		color: #ffffff !important;
+  }
+
+  .section-education .institution {
+    font-size: 1.0rem;
+		color: #ffffff !important;
+  }
+
+  .section-education .date span{
+    font-size: 1.0rem;
+		color: #ffffff !important;
+  }
+
+  .sidebar a:link, .sidebar a:hover, .sidebar a:visited {
+    text-decoration: none;
+		color: #ffffff !important;
+  }
+
+  /* Content */
+  .content {
+    padding: 3rem 5rem 3rem 2rem;
+    background: #FFFFFF !important;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+  }
+
+  .content h1 {
+    color: #3C3C3C !important;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 1.0rem;
+    font-weight: bold;
+  }
+
+  .content h2 {
+    color: #6D6D6D !important;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+
+  .content a:link, .content a:hover, .content a:visited {
+    text-decoration: none;
+    color: #6D6D6D !important;
+  }
+
+  /* Sections */
+  .section-name {
+    margin: 1rem 0 5rem 0;
+  }
+
+  .section-name h2 {
+    color: #6D6D6D !important;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    margin-top: 3rem;
+  }
+
+  .section-summary {
+    text-align: justify;
+  }
+
+  .section-work .item {
+    margin-bottom: 2.5rem;
+  }
+
+  .section-work .item .position {
+    font-weight: bold;
+    color: #333438 !important;
+    text-transform: uppercase;
+  }
+
+  .section-work .item .company {
+      padding: 0.5rem 0 0.5rem 0;
+      color: #6D6D6D !important;
+      font-weight: bold;
+  }
+
+  .section-work .item .summary, .section-work .item .highlights {
+      font-style: italic;
+      text-align: justify;
+  }
+
+  .section-volunteer .item {
+    margin-bottom: 2.5rem;
+  }
+
+  .section-volunteer .item .position {
+    font-weight: bold;
+    color: #333438 !important;
+    text-transform: uppercase;
+  }
+
+  .section-volunteer .item .company {
+      padding: 0.5rem 0 0.5rem 0;
+      color: #6D6D6D !important;
+      font-weight: bold;
+  }
+
+  .section-volunteer .item .summary, .section-volunteer .item .highlights {
+      font-style: italic;
+      text-align: justify;
+  }
+
+
+  .section-publications .item {
+    margin-bottom: 2.5rem;
+  }
+
+  .section-publications .item .name {
+    font-weight: bold;
+    color: #333438 !important;
+    text-transform: uppercase;
+  }
+
+  .section-publications .item .publication {
+      padding: 0.5rem 0 0.5rem 0;
+      color: #6D6D6D !important;
+      font-weight: bold;
+  }
+
+  .section-publications .item .summary, .section-publications .item .highlights {
+      font-style: italic;
+      text-align: justify;
+  }
+
+
+  .section-awards .item .title {
+    font-weight: bold;
+    color: #333438 !important;
+  }
+
+  .section-awards .item .date, .section-awards .item .awarder {
+    font-weight: normal;
+    color: #929292 !important;
+  }
+
+  .section-awards .item .summary {
+    font-weight: normal;
+    font-style: italic;
+    text-align: justify;
+  }
+
+  .section-languages .item .language {
+    font-weight: bold;
+    color: #333438 !important;
+  }
+
+  .section-languages .item .fluency {
+    font-weight: normal;
+    color: #929292 !important;
+  }
+
+  .section-interests .title {
+    font-weight: bold;
+  }
+
+  .section-interests .item {
+    margin: 0.2rem 0 0.0rem 0;
+    line-height: 1.4rem;
+  }
+
+  .section-skills .item {
+    margin-bottom: 1rem;
+  }
+
+  .section-skills .item .name {
+    color: #ffffff !important;
+  }
+
+	.section-skills .item .keywords .span {
+		color: #ffffff !important;
+		background: #929292 !important;
+	}
+
+  .section-skills .keywords span.label {
+      color: #000 !important;
+      background: #929292 !important;
+      line-height: 1.7rem;
+  }
+
+
+  .section-contact .fa {
+    padding: 0.5rem 0 0 0;
+    background: #ffffff  !important;
+    color: #333438 !important;
+    border-radius: 100rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    text-align: center;
+    margin: -0.4rem 0.8rem 0.8rem 0.5rem;
+    float: left;
+  }
+
+  .section-contact ul.contact {
+    list-style-type: none;
+    margin: 0.2rem 0 0.2rem 0;
+    padding: 0;
+  }
+
+  .section-contact ul.contact li {
+    margin: 0.5rem 0 0.5rem 0;
+		color: #ffffff !important;
+  }
+
+  .section-contact ul.profiles {
+    list-style-type: none;
+    margin: 4rem 0 0.5rem 0;
+    padding: 0;
+  }
+
+  .section-contact ul.profiles li {
+    margin: 0.5rem 0 0.5rem 0;
+		color: #ffffff !important;
+  }
+
+  .section-contact ul.contact li span,.section-contact ul.profiles li span {
+      word-wrap: break-word;
+      white-space: pre-wrap;
+      color: #ffffff !important;
+  }
+
+}
+
+		</style>
+	</head>
+	<body>
+
+		<div class="container">
+			<div class="row" id="resume">
+				<div class="col-xs-4 sidebar">
+					    <section class="section-basic">
+					            <div class="avatar">
+					                <img src="https://media-exp1.licdn.com/dms/image/C5103AQGgNBbXTYzXmA/profile-displayphoto-shrink_200_200/0/1583335859647?e=1640217600&amp;v=beta&amp;t=tUGllNbV2mbQVK-OwLAnkInYWlM72CuqZ0CBRzVxUX4" alt="Giovannka Ninoska Antia Oliver Ferrufino" class="img-circle">
+					            </div>
+					    </section>
+					    <section class="section-contact">
+					        <h2 class="title">
+					            <span class="">Contact</span>
+					        </h2>
+					        <ul class="contact">
+					                <li class="icon-item clearfix">
+					                    <i class="fa fa-map-marker"></i>
+					                    
+					                        
+					                        La Paz - Bolivia
+					                        
+					                        BO
+					                </li>
+					                <li class="icon-item clearfix">
+					                    <i class="fa fa-envelope "></i>
+					                    kristabhell@gmail.com
+					                </li>
+					                <li class="icon-item clearfix">
+					                    <i class="fa fa-phone "></i>
+					                    75871499
+					                </li>
+					        </ul>
+					            <ul class="profiles">
+					                    <li class="icon-item clearfix">
+					                        <i class="fa fa-linkedin "></i>
+					                        <span>https://www.linkedin.com/ in/ giovannka-oliver-491740115/ </span>
+					                    </li>
+					                    <li class="icon-item clearfix">
+					                        <i class="fa fa-twitter "></i>
+					                        <span>https://twitter.com/ GiovannkaOF?t=O8Xmdo1v7uS7VcR1m0jLNg&amp;s=09</span>
+					                    </li>
+					                    <li class="icon-item clearfix">
+					                        <i class="fa fa-github "></i>
+					                        <span>https://github.com/ kristabhell12/ kristabhell/ edit/ main/ README.md</span>
+					                    </li>
+					            </ul>
+					    </section>
+					<section class="section-education">
+						<h2 class="title">
+						    <span class="">Education</span>
+						</h2>
+						<div class="item">
+							<div class="studyTitle">
+								<span class="studyType">
+									Licenciatura
+								</span>
+								<span class="area">
+									Ciencias de la computación
+								</span>
+							</div>
+							<div class="institution">
+								Universidad Mayor de San Andrés
+							</div>
+							<div class="date">
+								<span class="startDate">
+									2012
+								</span>
+								<span class="endDate">
+									- 2019
+								</span>
+							</div>
+						</div>
+					</section>
+					<section class="section-skills">
+						<h2 class="title">
+						    <span class="">Skills</span>
+						</h2>
+						<div class="item">
+							<div class="name">
+								Hardware
+							</div>
+							<div class="keywords">
+								<span class="label label-default">Montaje</span>
+								<span class="label label-default">Mantenimiento</span>
+								<span class="label label-default">Periféricos</span>
+								<span class="label label-default">Solución de problemas</span>
+								<span class="label label-default">Gestión de dispositivos</span>
+							</div>
+						</div>
+						<div class="item">
+							<div class="name">
+								Lenguajes de programación
+							</div>
+							<div class="keywords">
+								<span class="label label-default">Python</span>
+								<span class="label label-default">Php</span>
+								<span class="label label-default">JavaScript</span>
+								<span class="label label-default">PHP</span>
+								<span class="label label-default">C#</span>
+								<span class="label label-default">Java</span>
+							</div>
+						</div>
+						<div class="item">
+							<div class="name">
+								Redes
+							</div>
+							<div class="keywords">
+								<span class="label label-default">Pila TCP/IP</span>
+								<span class="label label-default">Dispositivos de red</span>
+								<span class="label label-default">Configuración de la red</span>
+								<span class="label label-default">Dispositivos inalambricos</span>
+							</div>
+						</div>
+						<div class="item">
+							<div class="name">
+								Sistemas operativos
+							</div>
+							<div class="keywords">
+								<span class="label label-default">Linux</span>
+								<span class="label label-default">Windows</span>
+								<span class="label label-default">Android</span>
+								<span class="label label-default">IOS</span>
+								<span class="label label-default">macOS</span>
+								<span class="label label-default">Debian</span>
+								<span class="label label-default">Ubuntu</span>
+								<span class="label label-default">Windows-server</span>
+								<span class="label label-default">Windows 98/ME/XP/7/8/10</span>
+							</div>
+						</div>
+						<div class="item">
+							<div class="name">
+								Administración de servidores
+							</div>
+							<div class="keywords">
+								<span class="label label-default">Configuración del firewall de Linux</span>
+								<span class="label label-default">Monitoreo de puertos</span>
+								<span class="label label-default">Gestión de cuentas de usuario de Linux</span>
+								<span class="label label-default">Bash scripting</span>
+								<span class="label label-default">Lenguaje de consulta SQL</span>
+								<span class="label label-default">Administración de Servicios</span>
+								<span class="label label-default">Docker</span>
+								<span class="label label-default">Digital Ocean</span>
+								<span class="label label-default">Virtualbox</span>
+								<span class="label label-default">MySQL</span>
+								<span class="label label-default">Servidor Linux Debian</span>
+								<span class="label label-default">Servidor Linux Ubuntu</span>
+								<span class="label label-default">Gestión de base de datos</span>
+								<span class="label label-default">SQLite</span>
+								<span class="label label-default">editor vi</span>
+								<span class="label label-default">Copias de seguridad y restauración</span>
+								<span class="label label-default">VMware</span>
+							</div>
+						</div>
+						<div class="item">
+							<div class="name">
+								Software
+							</div>
+							<div class="keywords">
+								<span class="label label-default">Windows Office</span>
+								<span class="label label-default">Linux LibreOffice</span>
+								<span class="label label-default">Mantenimiento de Software</span>
+								<span class="label label-default">Gestión del antivirus de Windows</span>
+							</div>
+						</div>
+						<div class="item">
+							<div class="name">
+								Seguridad
+							</div>
+							<div class="keywords">
+								<span class="label label-default">Protección antivirus de Windows</span>
+								<span class="label label-default">Mantenimiento y gestión de la versión del software</span>
+								<span class="label label-default">Gestión de copias de seguridad</span>
+								<span class="label label-default">Restauración/recuperación de datos</span>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="col-xs-8 content">
+						<section class="section-name">
+							<h1>Giovannka Ninoska Antia Oliver Ferrufino</h1>
+							<h2>WINDOWS | LINUX | PYTHON| ANALISIS DE DATOS | PHP | JAVASCRIPT | CYBERSECURITY |INFORMATICA FORENCE|CRIPTOGRAFIA</h2>
+						</section>
+						<section class="section-summary">
+							<h2 class="title">
+							    <span class="">Summary</span>
+							</h2>
+							Soy una persona muy proactiva y con muchas ganas de seguir aprendiendo y aportando a mi entorno.Me encanta trabajar en equipo pero tambien me gusta mi espacio personal cuando desarrollo algun script o codigo, me gusta ensimismarme en los problemas algoritmicos y el analisis de datos y sacarles todo elprovecho posible asi como decifrar como se hacen las cosas. Adoro desarmar enigmas y crearsoluciones.
+						</section>
+					<section class="section-work">
+						<h2 class="title">
+						    <span class="">Experience</span>
+						</h2>
+						<div class="item">
+							<div class="position">
+								Desarrollo de software y manejo de base de datos mysql y postgresql
+							</div>
+							<div class="company">
+								<span class="name">
+									Facultad de Derecho y Cs. Politicas 
+								</span>
+								<span class="website">
+									| http://www.carrera-derecho.edu.bo/
+								</span>
+								<span class="date">
+									|
+									<span class="startDate">
+										Jul 2018
+									</span>
+									<span class="endDate">
+										- Dec 2020
+									</span>
+									<span class="diffDate">
+										(2 years 5 months)
+									</span>
+								</span>
+							</div>
+							<div class="summary">
+								<p>Realizaba desarrollo de software cuando era requerido segun se presentaba para las diferentes unidades administrativasde laFacultad de Derecho asi como tambien realizeuna parte para la Firma Digital que se utiliza en los Certificados Unicos de Notas de esta facultad para los estudiantes</p>
+							</div>
+							<ul class="highlights">
+								<li>Administración, analisis y diseño de Bases de datos en mysql,postgresql</li>
+								<li>Diseño de scripts tanto en el lenguaje Python como en PHP</li>
+								<li>Introducción a Python</li>
+								<li>Diseño de workflows y diagramas de flujo</li>
+								<li>Diseño y desarrollo de reportes e informes en formato pdf para cualquier requerimiento</li>
+								<li>Diseño y manejo de la revista juridica de la Carrera de Derecho</li>
+								<li> Recovery o recuperacion de datos perdidos en equipos tecnologicos de la Facultad de Derecho o de los docentes si asi lo requerian</li>
+							</ul>
+						</div>
+						<div class="item">
+							<div class="position">
+								Soporte Tecnico y Atencion de Plataforma al usuario 
+							</div>
+							<div class="company">
+								<span class="name">
+									Facultad de Derecho y Cs. Politicas - UMSA
+								</span>
+								<span class="website">
+									| http://www.carrera-derecho.edu.bo/
+								</span>
+								<span class="date">
+									|
+									<span class="startDate">
+										Jul 2018
+									</span>
+									<span class="endDate">
+										- Dec 2020
+									</span>
+									<span class="diffDate">
+										(2 years 5 months)
+									</span>
+								</span>
+							</div>
+							<div class="summary">
+								<p>Realizaba al mismo tiempo el mantenimiento y solucion de problemas de todos los equipos tecnologicos de la Facultad de Derecho,tanto en lo referente al hardware como al software de los mismos.Atendia en plataforma al cliente a docentes y estudiantes en sus diversos requerimientos.Entre otras muchas mis principales funciones eran:</p>
+							</div>
+							<ul class="highlights">
+								<li>Mantenimiento del software</li>
+								<li>Mantenimiento de hardware</li>
+								<li>Solución de problemas de red</li>
+								<li>Problemas del usuario</li>
+								<li>Mantenimiento de VoIP</li>
+								<li>configuración y administración de switches</li>
+								<li>Administración de control de acceso</li>
+								<li>Trabajé con un equipo de 8 personas</li>
+								<li>Capacitacion tanto a docentes y a estudiantes en el manejo de plataformas virtuales y e-learning</li>
+							</ul>
+						</div>
+						<div class="item">
+							<div class="position">
+								Tutoria Tiempo Parcial
+							</div>
+							<div class="company">
+								<span class="name">
+									Educomser
+								</span>
+								<span class="website">
+									| https://www.educomser.com/
+								</span>
+								<span class="date">
+									|
+									<span class="startDate">
+										Feb 2018
+									</span>
+									<span class="endDate">
+										- Jul 2020
+									</span>
+									<span class="diffDate">
+										(2 years 5 months)
+									</span>
+								</span>
+							</div>
+							<div class="summary">
+								<p> Realizaba tutorias  ayudando a los estudiantes a mejorar sus habilidades de programación yadministración de bases de datos, cada curso tiene una duración de 3 o 2 semanas y esta dividido por modulos en diferentes horarios.Tanto de forma presencial como de manera virtual</p>
+							</div>
+							<ul class="highlights">
+								<li>Administración, analisis y diseño de Bases de datos en access,mysql,postgresql,sqlserver</li>
+								<li>Introducción a la programacion orientada a objetos</li>
+								<li>Introducción a la programacion .net en C#</li>
+								<li>Php</li>
+							</ul>
+						</div>
+						<div class="item">
+							<div class="position">
+								Asistente de oficina a tiempo completo (pasante)
+							</div>
+							<div class="company">
+								<span class="name">
+									Facultad de Ciencias Puras y Naturales - Universidad Mayor de San Andrés (UMSA)
+								</span>
+								<span class="website">
+									| http://www.fcpn.edu.bo/
+								</span>
+								<span class="date">
+									|
+									<span class="startDate">
+										Jan 2017
+									</span>
+									<span class="endDate">
+										- Jan 2017
+									</span>
+									<span class="diffDate">
+										()
+									</span>
+								</span>
+							</div>
+							<div class="summary">
+								<p> Trabajé como asistente de oficina ayudando con procesos administrativos como mensajería, manejo de documentación, publicación, diseño y desarrollo de paginas web y organización de eventos.</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="position">
+								Desarrolladora e Investigadora a tiempo parcial (Auxiliar pasante)
+							</div>
+							<div class="company">
+								<span class="name">
+									Universidad Mayor de San Andrés (UMSA)
+								</span>
+								<span class="website">
+									| http://instituto.informatica.edu.bo/
+								</span>
+								<span class="date">
+									|
+									<span class="startDate">
+										Feb 2017
+									</span>
+									<span class="endDate">
+										- Dec 2017
+									</span>
+									<span class="diffDate">
+										(10 months)
+									</span>
+								</span>
+							</div>
+							<div class="summary">
+								<p>Me encargué de diseñar un sistema en React y postgrest. Trabajé con un equipo de 4 personas, la aplicación fue desarrollada para ayudar a  guardar los datos sobre el nuevo diseño curricular de la Carrera de Informatica en su fase de actualizacion el diseño curricular. Mis funciones fueron:</p>
+							</div>
+							<ul class="highlights">
+								<li>Colaborar con los eventos de divulgación de la nueva malla curricular</li>
+								<li>Trabajar en equipo para cumplir con los plazos establecidos</li>
+								<li>Brindar apoyo y ayuda a los docentes investigadores en sus diferentes tareas de investigacion a su cargo</li>
+								<li>Desarrollar los sistemas de informacion necesarias para el cumplimiento de los objetivos</li>
+							</ul>
+						</div>
+					</section>
+					<section class="section-volunteer">
+						<h2 class="title">
+						    <span class="">Volunteer</span>
+						</h2>
+						<div class="item">
+							<div class="position">
+								Co-organizadora
+							</div>
+							<div class="company">
+								<span class="name">
+									Flisol
+								</span>
+								<span class="website">
+									| https://flisol.info/
+								</span>
+							<span class="date">
+								| <span class="startDate">
+									Apr 2017
+								</span>
+								<span class="endDate">
+									- Apr 2017
+								</span>
+								<span class="diffDate">
+									()
+								</span>
+							</span>
+							</div>
+							<div class="summary">
+								<p> Festival latinoamericano de instalación de software libre. Ayudé a las personas a elegir la distribución de Linux más adecuada para sus necesidades, ayude en la organizacion del evento y en la realizacion de las ponencias</p>
+							</div>
+							<ul class="highlights">
+								<li>Entrega de SO de software libre y explicacion de como usarlo&#x27;</li>
+								<li>Organizacion de las ponencias</li>
+							</ul>
+						</div>
+						<div class="item">
+							<div class="position">
+								Voluntario
+							</div>
+							<div class="company">
+								<span class="name">
+									Universidad Mayor de San Andrés(UMSA) - carrera de Informática
+								</span>
+								<span class="website">
+									| http://www.informatica.edu.bo/
+								</span>
+							<span class="date">
+								| <span class="startDate">
+									Nov 2015
+								</span>
+								<span class="endDate">
+									- Dec 2017
+								</span>
+								<span class="diffDate">
+									(2 years)
+								</span>
+							</span>
+							</div>
+							<div class="summary">
+								<p>Me ofrecí como voluntario en diferentes eventos cuando era estudiante en mi universidad.</p>
+							</div>
+							<ul class="highlights">
+								<li>Colaborador en la [&#x27;Hora del código&#x27;](https://hourofcode.com), 10 de noviembre de 2015</li>
+								<li>Organizador de Wargame en el XIII Congreso Nacional de Ciencias de la Computación, del 17 al 21 de octubre de 2016</li>
+								<li>Co-fundadora de la comunidad del TechUmsa donde se realizaban diferentes cursos de especializacion para toda la comunidad universitaria o tambien exterior que asi lo requerian.</li>
+								<li>Co-fundadora del Grupo de Seguridad Informática UMSA, julio de 2017</li>
+								<li>Colaboracion en la organizacion del evento Congreso de los 50 años de la FCPN, en el año 2017</li>
+							</ul>
+						</div>
+					</section>
+					<section class="section-languages">
+						<h2 class="title">
+						    <span class="">Languages</span>
+						</h2>
+						<ul>
+							<li class="item">
+								<div class="language">
+									Espanish
+									<span class="fluency">
+										| <em>Native Speaker</em>
+									</span>
+								</div>
+							</li>
+							<li class="item">
+								<div class="language">
+									English
+									<span class="fluency">
+										| <em>B1</em>
+									</span>
+								</div>
+							</li>
+							<li class="item">
+								<div class="language">
+									Japanish
+									<span class="fluency">
+										| <em>Basic</em>
+									</span>
+								</div>
+							</li>
+						</ul>
+					</section>
+				</div>
+		</div>
+
+	</body>
+</html>
