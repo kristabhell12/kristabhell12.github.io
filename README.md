@@ -19,10 +19,11 @@
   usar las opciones de impresion para generar el pdf y ponerlo en la carpeta "docs" con nombre "cvGio.pdf"
 
 * Actualizar el repositorio
+```
   git add .
   git commit -m "algun mensaje "
   git push origin master
-
+```
 * Abrir en el navegador la direccion:
   https://kristabhell12.github.io/
 
