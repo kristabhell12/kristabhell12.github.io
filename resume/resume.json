@@ -48,6 +48,25 @@
 			"url": "http://www.carrera-derecho.edu.bo/ "
 		},
 		{
+			"company": "Procesos - UMSA",
+			"name": "Unidad de Procesos",
+			"location": "La Paz - Bolivia",
+			"endDate": "2021-12-31",
+			"highlights": [
+				"Diseño y Manejo de la Base de Datos de los procesos",
+				"Atencion y asesoramiento en Plataforma a la comunidad Universitaria",
+				"Transcripcion de Datos",
+				"Archivo de documentos legales",
+				"Trabajé con un equipo de 7 personas",
+				
+			],
+			"position": "Soporte Tecnico y Atencion de Plataforma al usuario ",
+			"startDate": "2018-07-01",
+			"summary": "Realizaba al mismo tiempo el mantenimiento y solucion de problemas de todos los equipos tecnologicos de la Facultad de Derecho,tanto en lo referente al hardware como al software de los mismos.Atendia en plataforma al cliente a docentes y estudiantes en sus diversos requerimientos.Entre otras muchas mis principales funciones eran:",
+			"website": "http://www.carrera-derecho.edu.bo/",
+			"url": "http://www.carrera-derecho.edu.bo/"
+		},
+		{
 			"company": "Facultad de Derecho y Cs. Politicas - UMSA",
 			"name": "Unidad de Sistemas",
 			"location": "La Paz - Bolivia",
@@ -129,6 +148,19 @@
 				"Entrega de SO de software libre y explicacion de como usarlo'",
 				"Organizacion de las ponencias"
 			]
+			[{
+			"organization": "Instituto de Investigaciones de Informática - U.M.S.A Carrera de Informática",
+			"position": "Estudiante Investigadora",
+			"startDate": "2016-02-3",
+			"endDate": "2016-12-31",
+			]
+		},
+		[{
+			"organization": " Tech-U.M.S.A Carrera de Informática",
+			"position": "Co-fundadora",
+			"startDate": "2016-02-3",
+			"endDate": "2017-12-31",
+			]
 		},
 		{
 			"organization": "Universidad Mayor de San Andrés(UMSA) - carrera de Informática",
@@ -188,8 +220,10 @@
 		},
 		{
 			"name": "Redes",
-			"level": "Basico",
+			"level": "Basico CCNA 1",
 			"keywords": [
+			    "Certificado de aprobación Modulo 1 CCNA cisco"
+				"Packet Tracer"
 				"Pila TCP/IP",
 				"Dispositivos de red",
 				"Configuración de la red",
@@ -246,6 +280,16 @@
 			]
 		},
 		{
+			"name": "Seguridad Informática",
+			"level": "Basico",
+			"keywords": [
+				"Análisis de Vulnerabilidades",
+				"Prácticas OWASP",
+				"Introducción a la Seguridad Cibernetica",
+				"Web Defense Fundamentals"
+			]
+		}
+		{
 			"name": "Seguridad",
 			"level": "Basico",
 			"keywords": [
@@ -253,6 +297,56 @@
 				"Mantenimiento y gestión de la versión del software",
 				"Gestión de copias de seguridad",
 				"Restauración/recuperación de datos"
+			]
+		}
+		{
+			"name": "Análisis de Datos",
+			"level": "Basico",
+			"keywords": [
+				"Analisis y Manejo de datos con IBM Watson",
+				"Analisis de datos con Python",
+				"Bases de Datos para Unidades de Información",
+				"Minería de Datos y Big Data",
+				"Herramientas de Estadística Descriptiva",
+				"Colas de espera"
+				"Manejo y programación en Matlab"
+				
+			]
+		}
+		{
+			"name": "Seguridad de Datos",
+			"level": "Basico",
+			"keywords": [
+				"Protección de datos",
+				"Encriptación",
+				"Firma Digital",
+				"Copias de seguridad",
+				"Principios y Regulaciones de la Seguridad de la Información"
+			]
+		}
+		{
+			"name": "Relaciones Humanas y HelpDesk",
+			"level": "Alto",
+			"keywords": [
+				"Atención al Cliente",
+				"Solucion de Problemas",
+				"Diseño, Análisis y Manejo de Bases de Datos SQLSERVER,MySQL,POSTGRESQL,ACCESS",
+				"Soporte y Mantenimiento Técnico de Software y Hardware",
+				"Ensamblado y Mantenimiento Preventivo",
+				"Manejo de Plataformas virtuales de Enseñanza",
+				"Manejo de OBS y plataformas de Streaming",
+				"Manejo de Excel avanzado",
+				"Manejo de Office",
+				"Aprendizaje con las herramientas de Google For Education"
+			]
+		}
+		{
+			"name": "Licenciatura en Derecho",
+			"level": "Egreso",
+			"keywords": [
+				"Nociones de Delitos Informáticos",
+				"Derecho Internacional",
+				
 			]
 		}
 	],
@@ -272,7 +366,7 @@
 	"projects": [
 
 		{
-			"name": "Modelo de simulacion para el efecto del cambio climatico en los cultivos de maiz de la localidad de Palca",
+			"name": "Modelo de simulación para el efecto del cambio climatico en los cultivos de maiz de la localidad de Palca",
 			"description": "Proyecto de elaboracion de Tesis",
 			"highlights": [
 				"Escrito en Php, simulacion realizada en Matlab",
@@ -285,6 +379,8 @@
 				"Estadistica",
 				"EfectoClimatico",
 				"SeriesEstacionarias"
+				"Matlab",
+				"Lenguaje de programacion de Matlab"
 			],
 			"startDate": "2019-02-14",
 			"endDate": "2019-12-15",
@@ -294,6 +390,6 @@
 			"type": "application"
 		}
 	],
-	"interests": [],
+	"interests": [Musica clásica, Rock clásico, Heavy Metal, Rock Español, Viajes, Lectura, Tecnología y Programacion, Metaverso],
 	"references": []
 }
