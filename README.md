@@ -1,29 +1,28 @@
 ## personal resume website
 
 ### instalation of tools
+* El archivo "resume.json" debe estar en la carpeta "resume" y "papirus"
+* Se debe tener instalado resume-cli desde https://github.com/jsonresume/resume-cli
 
-* make sure you have resume-cli installed from https://github.com/jsonresume/resume-cli
-* make sure you have installed elegant and papirus theme installed:
+* Entrar a la carpeta "resume" y escribir en la terminal:
 
-    npm install -g jsonresume-theme-papirus
+    resume export index.html -t .
 
-    npm install -g jsonresume-theme-elegant
+    NOTA: si hay errores se tiene que revisar el formato del archivo json o usar un validador online como: https://jsonformatter.org/
 
-* export index.html from elegant theme
+* salir de la carpeta "resume" y ejecutar el escript "patch" y "patchPdf"
 
-    resume export index.html -t elegant
+  ./patch
+  ./patchPdf
 
-* apply patch to index.html
+* Para generar el pdf entrar a la carpeta "papirus" y abrir en el navegador el archivo "index.html"
+  usar las opciones de impresion para generar el pdf y ponerlo en la carpeta "docs" con nombre "cvGio.pdf"
 
-* to generate resume in pdf, serve your resume with papirus theme
+* Actualizar el repositorio
+  git add .
+  git commit -m "algun mensaje "
+  git push origin master
 
-    resume serve -r resume.json -t papirus
-
-* in the browser  print your resume  (adjusting and formatting) and put in the public folder
-
-* git add . and git commit
-
-* to test in the public directory:
-
-    python -m http.server 8000 
+* Abrir en el navegador la direccion:
+  https://kristabhell12.github.io/
 

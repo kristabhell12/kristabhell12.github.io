@@ -57,8 +57,7 @@
 				"Atencion y asesoramiento en Plataforma a la comunidad Universitaria",
 				"Transcripcion de Datos",
 				"Archivo de documentos legales",
-				"Trabajé con un equipo de 7 personas",
-				
+				"Trabajé con un equipo de 7 personas"
 			],
 			"position": "Soporte Tecnico y Atencion de Plataforma al usuario ",
 			"startDate": "2018-07-01",
@@ -136,7 +135,8 @@
 			"url": "http://instituto.informatica.edu.bo/"
 		}
 	],
-	"volunteer": [{
+	"volunteer": [
+    {
 			"organization": "Flisol",
 			"position": "Co-organizadora",
 			"url": "https://flisol.info/",
@@ -148,19 +148,18 @@
 				"Entrega de SO de software libre y explicacion de como usarlo'",
 				"Organizacion de las ponencias"
 			]
-			[{
+    },
+		{
 			"organization": "Instituto de Investigaciones de Informática - U.M.S.A Carrera de Informática",
 			"position": "Estudiante Investigadora",
-			"startDate": "2016-02-3",
-			"endDate": "2016-12-31",
-			]
+			"startDate": "2016-02-03",
+			"endDate": "2016-12-31"
 		},
-		[{
+		{
 			"organization": " Tech-U.M.S.A Carrera de Informática",
 			"position": "Co-fundadora",
-			"startDate": "2016-02-3",
-			"endDate": "2017-12-31",
-			]
+			"startDate": "2016-02-03",
+			"endDate": "2017-12-31"
 		},
 		{
 			"organization": "Universidad Mayor de San Andrés(UMSA) - carrera de Informática",
@@ -222,8 +221,8 @@
 			"name": "Redes",
 			"level": "Basico CCNA 1",
 			"keywords": [
-			    "Certificado de aprobación Modulo 1 CCNA cisco"
-				"Packet Tracer"
+			  "Certificado de aprobación Modulo 1 CCNA cisco",
+				"Packet Tracer",
 				"Pila TCP/IP",
 				"Dispositivos de red",
 				"Configuración de la red",
@@ -288,7 +287,7 @@
 				"Introducción a la Seguridad Cibernetica",
 				"Web Defense Fundamentals"
 			]
-		}
+		},
 		{
 			"name": "Seguridad",
 			"level": "Basico",
@@ -298,7 +297,7 @@
 				"Gestión de copias de seguridad",
 				"Restauración/recuperación de datos"
 			]
-		}
+		},
 		{
 			"name": "Análisis de Datos",
 			"level": "Basico",
@@ -308,11 +307,11 @@
 				"Bases de Datos para Unidades de Información",
 				"Minería de Datos y Big Data",
 				"Herramientas de Estadística Descriptiva",
-				"Colas de espera"
+				"Colas de espera",
 				"Manejo y programación en Matlab"
 				
 			]
-		}
+		},
 		{
 			"name": "Seguridad de Datos",
 			"level": "Basico",
@@ -323,7 +322,7 @@
 				"Copias de seguridad",
 				"Principios y Regulaciones de la Seguridad de la Información"
 			]
-		}
+		},
 		{
 			"name": "Relaciones Humanas y HelpDesk",
 			"level": "Alto",
@@ -339,13 +338,13 @@
 				"Manejo de Office",
 				"Aprendizaje con las herramientas de Google For Education"
 			]
-		}
+		},
 		{
 			"name": "Licenciatura en Derecho",
 			"level": "Egreso",
 			"keywords": [
 				"Nociones de Delitos Informáticos",
-				"Derecho Internacional",
+				"Derecho Internacional"
 				
 			]
 		}
@@ -378,18 +377,37 @@
 				"Simulink",
 				"Estadistica",
 				"EfectoClimatico",
-				"SeriesEstacionarias"
+				"SeriesEstacionarias",
 				"Matlab",
 				"Lenguaje de programacion de Matlab"
 			],
 			"startDate": "2019-02-14",
 			"endDate": "2019-12-15",
-			"url": "",
 			"roles": [],
 			"entity": "",
 			"type": "application"
 		}
 	],
-	"interests": [Musica clásica, Rock clásico, Heavy Metal, Rock Español, Viajes, Lectura, Tecnología y Programacion, Metaverso],
-	"references": []
+	"interests": 
+  [
+    {
+      "name":"Musica",
+      "keywords":[
+        "Musica clásica",
+        "Rock clásico",
+        "Heavy Metal",
+        "Rock Español"
+      ]
+    },
+    {
+      "name":"Ocio",
+      "keywords": [
+        "Lectura",
+        "Tecnología y Programacion",
+        "Metaverso",
+        "Cine",
+        "Videojuegos"
+      ]
+    }
+  ]
 }

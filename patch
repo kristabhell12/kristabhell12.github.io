@@ -1,7 +1,7 @@
 cd resume
 rm index.html
 resume export index.html -t . 
-sed -i 's%<title>José Luis Blas Ralde</title>%<title>José Luis Blas Ralde</title><link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png"><link rel="manifest" href="icons/manifest.json"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png"><meta name="theme-color" content="#ffffff">%g' index.html
+sed -i 's%<title>Giovannka Ninoska Antia Oliver Ferrufino</title>%<title>Giovannka Ninoska Antia Oliver Ferrufino</title><link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png"><link rel="manifest" href="icons/manifest.json"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png"><meta name="theme-color" content="#ffffff">%g' index.html
 sed -i 's#Espanish, English</span></div>#Español, Ingles(B1)</span></div><div class="detail"><span class="icon" title="Last update"><i class="icon fs-lg icon-circle"></i></span><span class="info">Ultima actualización: Oct 22,2021</span></div><div class="detail"><span class="icon" title="Descarga Hoja de vida"><i class="icon fs-lg icon-circle"></i></span><span class="info"><a href="cvjlbr.pdf" download> Descarga CV (2 paginas)</span></div>#g' index.html
 sed -i 's#</i>About</a>#</i>Acerda de</a>#g' index.html
 sed -i 's#</i>Work Experience</a>#</i>Experiencia Laboral</a>#g' index.html
@@ -13,6 +13,7 @@ sed -i 's#</i>Volunteer Work</a>#</i>Trabajo Voluntario</a>#g' index.html
 
 sed -i 's#Background</h4>#Resumen</h4>#g' index.html
 sed -i 's#About</h4>#Acerca de</h4>#g' index.html
+sed -i 's#Interests#Intereses#g' index.html
 sed -i 's#Work Experience</h4>#Experiencia laboral</h4>#g' index.html
 sed -i 's#Projects Experience</h4>#Experiencia en Proyectos</h4>#g' index.html
 sed -i 's#Skills</h4>#Habilidades</h4>#g' index.html
@@ -22,11 +23,11 @@ sed -i 's#Volunteer Work</h4>#Trabajo Voluntario</h4>#g' index.html
 sed -i 's#Issued on#Emitido en#g' index.html
 sed -i 's#months#meses#g' index.html
 sed -i 's#years#años#g' index.html
-sed -i 's#Dec, 2017#Dic, 2017#g' index.html
+sed -i 's#Dec,#Dic,#g' index.html
 sed -i 's#Jan#Ene#g' index.html
 sed -i 's#Apr,#Abr#g' index.html
 sed -i 's%</script></body>%</script>\n del\n</body>%g' index.html
 sed -i '/del/r googleCode' index.html
-sed -i 's#Espanish, English, Japanish</span></div>#Espanish, English, Japanish</span></div><div class="detail"><span class="icon" title="Descarga Hoja de vida"><i class="icon fs-lg icon-circle"></i></span><span class="info"><a href="cvGio.pdf" download=""> Descarga CV (2 paginas)</a></span></div>#g' index.html
+sed -i 's#Espanish, English, Japanish</span></div>#Espanish, English, Japanish</span></div><div class="detail"><span class="icon" title="Descarga Hoja de vida"><i class="icon fs-lg icon-circle"></i></span><span class="info"><a href="cvGio.pdf" download=""> Descarga CV </a></span></div>#g' index.html
 rm ../docs/index.html
 cp index.html ../docs/index.html
