@@ -36,6 +36,19 @@
 		]
 	},
 	"work": [{
+			"company": "Sintesis ",
+			"name": "Sucursal La Paz",
+			"location": "La Paz - Bolivia",
+			"endDate": "2023-06-30",
+			"highlights": ["Administración, analisis de datos sobre transacciones en diferentes plataformas de pago", "Diseño de scripts tanto en el lenguaje Python como en PHP", "Conciliaciones mensuales", "Diseño y direccion de nuevos proyectos", "Diseño de reportes e informes para cualquier requerimiento", "Manejo y Analisis de Log de errores y ascii de transacciones en tiempo real en diferentes servidores en linux"]
+			"position": "Analista de Operaciones",
+			"startDate": "2023-04-14",
+			"summary": "Realizaba el monitoreo de los pagos y trasacciones realizadas por los diferentes canales y clientes a mi cargo, asi como la solucion de los diferentes problemas en relacion a dichos pagos, atencion personalizada a los clientes en relacion a reclamos de pagos y transacciones, reportes requeridos y demas, conciliaciones mensuales y quincenales segun requerimento tanto con los clientes como con los bancos que conciliaban segun los datos de las transacciones registradas en el sistema de Sintesis",
+			"website": "https://www.sistesis.com.bo/",
+			"url": "http://www.sintesis.com.bo/"
+		},
+		
+		{
 			"company": "Facultad de Derecho y Cs. Politicas ",
 			"name": "FDCP",
 			"location": "La Paz - Bolivia",
