@@ -60,7 +60,7 @@
 				"Mantenimiento del sistema",
 				"configuración de manuales operativos",
 				"Analisis de datos",
-				"Trabajé con un equipo algunas veces cuando se requeria y en otras sola ",
+				"Trabajé con un equipo algunas veces cuando se requeria y en otras sola "
 			
 			],
 			"position": "Analista de Operaciones ",
@@ -103,6 +103,7 @@
 			"website": "http://www.carrera-derecho.edu.bo/",
 			"url": "http://www.carrera-derecho.edu.bo/"
 		},
+		
 		{
 			"name": "Educomser",
 			"company": "Educomser",
@@ -149,6 +150,42 @@
 			"summary": "Me encargué de diseñar un sistema en React y postgrest. Trabajé con un equipo de 4 personas, la aplicación fue desarrollada para ayudar a  guardar los datos sobre el nuevo diseño curricular de la Carrera de Informatica en su fase de actualizacion el diseño curricular. Mis funciones fueron:",
 			"website": "http://instituto.informatica.edu.bo/",
 			"url": "http://instituto.informatica.edu.bo/"
+		},
+		{
+			"company": "Nacional Vida de Seguros y Reaseguros",
+			"name": "Marketing",
+			"location": "La Paz - Bolivia",
+			"endDate": "2017-02-28",
+			"highlights": [
+				"Venta de seguros de todo tipo",
+				"Seguimiento a las ventas",
+				"Solución de problemas de los clientes",
+				"Cobro y deposito de la primera mensualidad"
+				
+			],
+			"position": "Asesora de Ventas",
+			"startDate": "2016-05-01",
+			"summary": "Realizaba la socializacion y venta de diferentes seguros de todo tipo, atencion personalizada al cliente",
+			"website": "https://nacionalseguros.com.bo/blogs/nos-mudamos-casa-nuestras-nuevas-oficinas-en-la-paz",
+			"url": "https://nacionalseguros.com.bo/blogs/nos-mudamos-casa-nuestras-nuevas-oficinas-en-la-paz"
+		},
+		{
+			"company": "Renacer",
+			"name": "Marketing",
+			"location": "La Paz - Bolivia",
+			"endDate": "2016-01-31",
+			"highlights": [
+				"Venta de servicos excequiales y terrenos",
+				"Seguimiento a las ventas",
+				"Solución de problemas de los clientes",
+				"Cobro y deposito de la primera mensualidad"
+				
+			],
+			"position": "Asesora de Ventas",
+			"startDate": "2015-01-01",
+			"summary": "Realizaba la venta de diferentes tipos de servicos excequiales y venta de terrenos para el parque cementerio jardin tipo, atencion personalizada al cliente",
+			"website": "https://www.renacer.com.bo/",
+			"url": "https://www.renacer.com.bo/"
 		}
 	],
 	"volunteer": [{
