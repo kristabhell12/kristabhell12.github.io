@@ -11,7 +11,7 @@
 		"email": "kristabhell@gmail.com",
 		"phone": "75871499",
 		"website": "",
-		"summary": "Soy una persona muy proactiva y con muchas ganas de seguir aprendiendo y aportando a mi entorno.Me encanta trabajar en equipo pero tambien me gusta mi espacio personal cuando desarrollo algun script o codigo, me gusta ensimismarme en los problemas algoritmicos y el analisis de datos y sacarles todo elprovecho posible asi como decifrar como se hacen las cosas. Adoro desarmar enigmas y crearsoluciones.",
+		"summary": "Soy una persona activa, paciente, proactiva, empatica, sencilla y con muchas ganas de seguir aprendiendo y aportando a mi entorno.Me encanta trabajar en equipo pero tambien me gusta mi espacio personal cuando desarrollo algun script o codigo, me resolver los problemas utilizando algoritmicos y el analisis de datos, soy curiosa, respetuosa, respeto el espacio personal. Adoro la lectura, la tranquilida, las buenas amistades y crear soluciones sencillas para problemas complejos.",
 		"location": {
 			"countryCode": "BO",
 			"country": "Bolivia",
@@ -36,6 +36,40 @@
 		]
 	},
 	"work": [{
+			"company": "Sintesis S.A",
+			"name": "Sintesis",
+			"location": "La Paz - Bolivia",
+			"endDate": "2023-06-31",
+			"highlights": ["Analisis de Datos", "Diseño de scripts tanto en el lenguaje Python como en Bash", "Introducción a Python", "Diseño de informes", "Certificaciones de software", "Migracion de Archivos", " Recovery o recuperacion de datos perdidos en relacion a las transacciones realizadas","Manejo de servidores linux","Conciliaciones con los diferentes canales a mi cargo sobre las transacciones mensuales realizadas","Solucion de problemas sobre las transacciones sinconcluir o concluidas con algun problema","Atencion a los clientes en sus diferentes requerimientos","Menejo de postman para validacion de Facturas","Procesamiento de archivos para realizacionde facturas SFL", "Seguimiento y Certificacion de proyectos nuevos o requerimientos de los clientes","Revisar y certificar y testear constantemente,el buen funcinamiento de los sitemas de Sintesis, si algo estaba mal solicitar el arreglo del mismo","Mejorar en todo aspecto las diferentes plataformas para su mejor usabilidad"],
+			"position": "Desarrollo de software y manejo de base de datos mysql y postgresql",
+			"startDate": "2023-04-01",
+			"summary": "Realizaba el Analisis de Todas las Operaciones y transacciones realizadas de los clientes a mi cargo, dandole soporte y soluciones con diferentes problemas en su pago, verificando en tiempo real dichas transacciones, actualizacion de herramientas para el control de las transacciones,conciliaciones con los clientes y con el Banco Union, migracion de archivos correspondientes a los servidores, revision de logs de errores para detectar los problemas ocurridos en las diferentes transacciones y solucionarlos, manejo de cobol para la soluciones, manejo de mysql, manejo de postman, manejo del sistema linux, manejo de servidores, certificacion y testeo de los requerimientos de software nuevo, realizacion de reportes, soporte y atencion de los clientes a mi cargo",
+			"website": "https://www.sintesis.com.bo/",
+			"url": "https://www.sintesis.com.bo/ "
+		},
+		{
+			"company": "Sintesis S.A",
+			"name": "Unidad de Operaciones",
+			"location": "La Paz - Bolivia",
+			"endDate": "2023-06-31",
+			"highlights": [
+				"Mantenimiento del software",
+				"Realizacion de Conciliaciones",
+				"Solución de problemas sobre las transacciones fallidas",
+				"Problemas del usuario",
+				"Mantenimiento del sistema",
+				"configuración de manuales operativos",
+				"Analisis de datos",
+				"Trabajé con un equipo algunas veces cuando se requeria y en otras sola ",
+			
+			],
+			"position": "Analista de Operaciones ",
+			"startDate": "2023-04-01",
+			"summary": "Realizaba al mismo tiempo el mantenimiento y solucion de problemas de todas las transacciones y problemas de los clientes a mi cargo, asi como el mantemiento y control constante de las herramientas del sistema:",
+			"website": "https://www.sintesis.com.bo/",
+			"url": "http://www.carrera-derecho.edu.bo/"
+		},
+		[{
 			"company": "Facultad de Derecho y Cs. Politicas ",
 			"name": "FDCP",
 			"location": "La Paz - Bolivia",
