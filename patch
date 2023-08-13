@@ -1,3 +1,4 @@
+#!/bin/bash
 cd resume
 rm index.html
 resume export index.html -t . 

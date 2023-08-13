@@ -1,18 +1,13 @@
 ## personal resume website
 
 ### instalation of tools
-* El archivo "resume.json" debe estar en la carpeta "resume" y "papirus"
+* Actualizar el archivo "resume.json" con los cambios respectivos y la nueva copia debe estar en la carpeta "resume" y "papirus" 
+* se debe tener instalado npm (parte de nodejs)
 * Se debe tener instalado resume-cli desde https://github.com/jsonresume/resume-cli
-
-* Entrar a la carpeta "resume" y escribir en la terminal:
-
-    resume export index.html -t .
-
-    NOTA: si hay errores se tiene que revisar el formato del archivo json o usar un validador online como: https://jsonformatter.org/
-
-* salir de la carpeta "resume" y ejecutar el escript "patch" y "patchPdf"
-
+* ejecutar ejecutar en la terminal:
   ./patch
+  
+* para generar el pdf ejecutar en la terminal:
   ./patchPdf
 
 * Para generar el pdf entrar a la carpeta "papirus" y abrir en el navegador el archivo "index.html"

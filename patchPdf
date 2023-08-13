@@ -1,3 +1,4 @@
+#!/bin/bash
 cd papirus
 resume export index.html -t .
 rm ../resumePdf/index.html
