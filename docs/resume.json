@@ -6,19 +6,18 @@
 	},
 	"basics": {
 		"name": "Giovannka Ninoska Antia Oliver Ferrufino",
-		"label": "WINDOWS | LINUX | PYTHON | ANALISIS DE DATOS | PHP | POSTMAN | JAVASCRIPT | CYBERSECURITY | INFORMATICA FORENCE | CRIPTOGRAFIA",
+		"label": "WINDOWS | LINUX | PYTHON| ANALISIS DE DATOS | PHP | JAVASCRIPT | | POSTMAN BASICO |CYBERSECURITY |INFORMATICA FORENCE|CRIPTOGRAFIA",
 		"picture": "profile.jpeg",
 		"email": "kristabhell@gmail.com",
 		"phone": "75871499",
 		"website": "",
-		"summary": "Soy una persona activa, paciente, proactiva, empática, sencilla y con muchas ganas de seguir aprendiendo y aportando a mi entorno. Me encanta trabajar en equipo pero también me gusta mi espacio personal cuando desarrollo algún script o código, resuelvo los problemas utilizando algorítmicos y el análisis de datos. Soy curiosa, respetuosa, adoro la lectura, la tranquilidad, las buenas amistades y crear soluciones sencillas para problemas complejos.",
+		"summary": "Soy una persona muy proactiva y con muchas ganas de seguir aprendiendo y aportando a mi entorno.Me encanta trabajar en equipo pero tambien me gusta mi espacio personal cuando desarrollo algun script o codigo, me gusta resolver mediante algoritmos en los problemas, descubrir mediante el analisis de datos diferentes interrogantes y sacarles todo el provecho posible asi como decifrar como se hacen las cosas. Adoro desarmar enigmas y crear soluciones.Soy empatica con mi entorno pero no invasiva, me emociono mucho siempre que aprendo algo nuevo",
 		"location": {
 			"countryCode": "BO",
 			"country": "Bolivia",
 			"city": "La Paz - Bolivia"
 		},
-		"profiles": [
-			{
+		"profiles": [{
 				"network": "LinkedIn",
 				"username": "kristabhell",
 				"url": "https://www.linkedin.com/in/giovannka-oliver-491740115/"
@@ -26,83 +25,223 @@
 			{
 				"network": "Twitter",
 				"username": "@GiovannkaOF",
-				"url": "https://twitter.com/GiovannkaOF?t=O8Xmdo1v7uS7VcR1m0jLNg&s=09"
+				"url": "https://twitter.com/GiovannkaOF"
 			},
-		{
+			{
 				"network": "GitHub",
 				"username": "kristabhell12",
-				"url": "https://github.com/kristabhell12/kristabhell/edit/main/README.md"
+				"url": "https://github.com/kristabhell12"
 			}
 
 		]
 	},
-	"work": [
-		{
+	"work": [{
 			"company": "Sintesis S.A",
-			"name": "Sintesis",
+			"name": "Sintesis S.A Sucursal La Paz",
 			"location": "La Paz - Bolivia",
-			"endDate": "2023-06-30",
-			"highlights": [
-				"Analisis de Datos",
-				"Diseño de scripts tanto en el lenguaje Python como en Bash",
-				"Introducción a Python",
-				"Diseño de informes",
-				"Certificaciones de software",
-				"Migracion de Archivos",
-				"Recovery o recuperación de datos perdidos en relación a las transacciones realizadas",
-				"Manejo de servidores Linux",
-				"Conciliaciones con los diferentes canales a mi cargo sobre las transacciones mensuales realizadas",
-				"Solución de problemas sobre las transacciones sin concluir o concluidas con algún problema",
-				"Atención a los clientes en sus diferentes requerimientos",
-				"Manejo de Postman para validación de Facturas",
-				"Procesamiento de archivos para realización de facturas SFL",
-				"Seguimiento y Certificación de proyectos nuevos o requerimientos de los clientes",
-				"Revisar y certificar y testear constantemente el buen funcionamiento de los sistemas de Sintesis, si algo estaba mal solicitar el arreglo del mismo",
-				"Mejorar en todo aspecto las diferentes plataformas para su mejor usabilidad"
-			],
+			"endDate": "2023-07-30",
+			"highlights": ["Administración, analisis de datos sobre transacciones en diferentes plataformas de pago", "Diseño de scripts tanto en el lenguaje Python como en PHP", "Conciliaciones mensuales", "Diseño y direccion de nuevos proyectos", "Diseño de reportes e informes para cualquier requerimiento", "Manejo y Analisis de Log de errores y ascii de transacciones en tiempo real en diferentes servidores en linux"],
+			"position": "Analista de Operaciones",
+			"startDate": "2023-04-14",
+			"summary": "Realizaba el monitoreo de los pagos y trasacciones realizadas por los diferentes canales y clientes a mi cargo, asi como la solucion de los diferentes problemas en relacion a dichos pagos, atencion personalizada a los clientes en relacion a reclamos de pagos y transacciones, reportes requeridos y demas, conciliaciones mensuales y quincenales segun requerimento tanto con los clientes como con los bancos que conciliaban segun los datos de las transacciones registradas en el sistema de Sintesis",
+			"website": "https://www.sistesis.com.bo/",
+			"url": "http://www.sintesis.com.bo/"
+		},
+		
+		{
+			"company": "Facultad de Derecho y Cs. Politicas ",
+			"name": " Facultad de Derecho y Cs. Politicas U.M.S.A - FDCP",
+			"location": "La Paz - Bolivia",
+			"endDate": "2020-12-31",
+			"highlights": ["Administración, analisis y diseño de Bases de datos en mysql,postgresql", "Diseño de scripts tanto en el lenguaje Python como en PHP", "Introducción a Python", "Diseño de workflows y diagramas de flujo", "Diseño y desarrollo de reportes e informes en formato pdf para cualquier requerimiento", "Diseño y manejo de la revista juridica de la Carrera de Derecho", " Recovery o recuperacion de datos perdidos en equipos tecnologicos de la Facultad de Derecho o de los docentes si asi lo requerian"],
 			"position": "Desarrollo de software y manejo de base de datos mysql y postgresql",
-			"startDate": "2023-04-01",
-			"summary": "Realizaba el análisis de todas las operaciones y transacciones realizadas de los clientes a mi cargo, dándoles soporte y soluciones con diferentes problemas en su pago, verificando en tiempo real dichas transacciones, actualización de herramientas para el control de las transacciones, conciliaciones con los clientes y con el Banco Unión, migración de archivos correspondientes a los servidores, revisión de logs de errores para detectar los problemas ocurridos en las diferentes transacciones y solucionarlos, manejo de COBOL para las soluciones, manejo de MySQL, manejo de Postman, manejo del sistema Linux, manejo de servidores, certificación y testeo de los requerimientos de software nuevo, realización de reportes, soporte y atención de los clientes a mi cargo",
-			"website": "https://www.sintesis.com.bo/",
-			"url": "https://www.sintesis.com.bo/"
+			"startDate": "2018-07-18",
+			"summary": "Realizaba desarrollo de software cuando era requerido segun se presentaba para las diferentes unidades administrativasde laFacultad de Derecho asi como tambien realizeuna parte para la Firma Digital que se utiliza en los Certificados Unicos de Notas de esta facultad para los estudiantes",
+			"website": "http://www.carrera-derecho.edu.bo/",
+			"url": "http://www.carrera-derecho.edu.bo/ "
 		},
 		{
-			"company": "Sintesis S.A",
-			"name": "Unidad de Operaciones",
+			"company": "Procesos - UMSA",
+			"name": " U.M.S.A - Unidad de Procesos",
 			"location": "La Paz - Bolivia",
-			"endDate": "2023-06-30",
+			"endDate": "2021-12-31",
+			"highlights": [
+				"Diseño y Manejo de la Base de Datos de los procesos",
+				"Atencion y asesoramiento en Plataforma a la comunidad Universitaria",
+				"Transcripcion de Datos",
+				"Archivo de documentos legales",
+				"Trabajé con un equipo de 7 personas"
+			],
+			"position": "Soporte Tecnico y Atencion de Plataforma al usuario ",
+			"startDate": "2018-07-01",
+			"summary": "Realizaba al mismo tiempo el mantenimiento y solucion de problemas de todos los equipos tecnologicos de la Facultad de Derecho,tanto en lo referente al hardware como al software de los mismos.Atendia en plataforma al cliente a docentes y estudiantes en sus diversos requerimientos.Entre otras muchas mis principales funciones eran:",
+			"website": "http://www.carrera-derecho.edu.bo/",
+			"url": "http://www.carrera-derecho.edu.bo/"
+		},
+		{
+			"company": "Facultad de Derecho y Cs. Politicas - UMSA",
+			"name": "Facultad de Derecho y Cs. Politicas - UMSA - Unidad de Sistemas",
+			"location": "La Paz - Bolivia",
+			"endDate": "2020-12-31",
 			"highlights": [
 				"Mantenimiento del software",
-				"Realización de Conciliaciones",
-				"Solución de problemas sobre las transacciones fallidas",
+				"Mantenimiento de hardware",
+				"Solución de problemas de red",
 				"Problemas del usuario",
-				"Mantenimiento del sistema",
-				"Configuración de manuales operativos",
-				"Análisis de datos",
-				"Trabajé con un equipo algunas veces cuando se requería y en otras sola"
+				"Mantenimiento de VoIP",
+				"configuración y administración de switches",
+				"Administración de control de acceso",
+				"Trabajé con un equipo de 8 personas",
+				"Capacitacion tanto a docentes y a estudiantes en el manejo de plataformas virtuales y e-learning"
 			],
-			"position": "Analista de Operaciones",
-			"startDate": "2023-04-01",
-			"summary": "Realizaba al mismo tiempo el mantenimiento y solución de problemas de todas las transacciones y problemas de los clientes a mi cargo, así como el mantenimiento y control constante de las herramientas del sistema",
-			"website": "https://www.sintesis.com.bo/",
+			"position": "Soporte Tecnico y Atencion de Plataforma al usuario ",
+			"startDate": "2018-07-01",
+			"summary": "Realizaba al mismo tiempo el mantenimiento y solucion de problemas de todos los equipos tecnologicos de la Facultad de Derecho,tanto en lo referente al hardware como al software de los mismos.Atendia en plataforma al cliente a docentes y estudiantes en sus diversos requerimientos.Entre otras muchas mis principales funciones eran:",
+			"website": "http://www.carrera-derecho.edu.bo/",
 			"url": "http://www.carrera-derecho.edu.bo/"
+		},
+		{
+			"name": "Educomser",
+			"company": "Educomser",
+			"location": "La Paz - Bolivia",
+			"endDate": "2020-07-28",
+			"highlights": [
+				"Administración, analisis y diseño de Bases de datos en access,mysql,postgresql,sqlserver",
+				"Introducción a la programacion orientada a objetos",
+				"Introducción a la programacion .net en C#",
+				"Php"
+
+			],
+			"position": "Tutoria Tiempo Parcial",
+			"startDate": "2018-02-13",
+			"summary": " Realizaba tutorias  ayudando a los estudiantes a mejorar sus habilidades de programación yadministración de bases de datos, cada curso tiene una duración de 3 o 2 semanas y esta dividido por modulos en diferentes horarios.Tanto de forma presencial como de manera virtual",
+			"website": "https://www.educomser.com/",
+			"url": "https://www.educomser.com/"
+		},
+		{
+			"name": "Facultad de Ciencias Puras y Naturales - Universidad Mayor de San Andrés (UMSA)",
+			"company": "Facultad de Ciencias Puras y Naturales - Universidad Mayor de San Andrés (UMSA)",
+			"location": "La Paz - Bolivia",
+			"endDate": "2017-01-05",
+			"highlights": [],
+			"position": "Asistente de oficina a tiempo completo (pasante)",
+			"startDate": "2017-01-31",
+			"summary": " Trabajé como asistente de oficina ayudando con procesos administrativos como mensajería, manejo de documentación, publicación, diseño y desarrollo de paginas web y organización de eventos.",
+			"website": "http://www.fcpn.edu.bo/",
+			"url": "http://www.fcpn.edu.bo/"
+		},
+		{
+			"name": "Instituto de Investigaciones en Informática - Universidad Mayor de San Andrés (UMSA)",
+			"company": "Instituto de Investigaciones en Informática - Universidad Mayor de San Andrés (UMSA) - Universidad Mayor de San Andrés (UMSA)",
+			"location": "La Paz - Bolivia",
+			"endDate": "2017-12-31",
+			"highlights": [
+				"Colaborar con los eventos de divulgación de la nueva malla curricular",
+				"Trabajar en equipo para cumplir con los plazos establecidos",
+				"Brindar apoyo y ayuda a los docentes investigadores en sus diferentes tareas de investigacion a su cargo",
+				"Desarrollar los sistemas de informacion necesarias para el cumplimiento de los objetivos"
+			],
+			"position": "Desarrolladora e Investigadora a tiempo parcial (Auxiliar pasante)",
+			"startDate": "2017-02-01",
+			"summary": "Me encargué de diseñar un sistema en React y postgrest. Trabajé con un equipo de 4 personas, la aplicación fue desarrollada para ayudar a  guardar los datos sobre el nuevo diseño curricular de la Carrera de Informatica en su fase de actualizacion el diseño curricular. Mis funciones fueron:",
+			"website": "http://instituto.informatica.edu.bo/",
+			"url": "http://instituto.informatica.edu.bo/"
+		},
+		{
+			"name": "Nacional Vida de Seguros",
+			"company": "Nacional Vida",
+			"location": "La Paz - Bolivia",
+			"endDate": "2014-02-05",
+			"highlights": [
+				"Asesoramiento y venta de todo tipo de seguros de vida, personales, grupales e industriales",
+				"Normativa de seguros",
+				"Atencion al cliente personalizada"
+
+
+			],
+			"position": "Asesora de seguros",
+			"startDate": "2015-12-31",
+			"summary": "Realizada el asesoramiento y la venta de los diferentes tipos de seguros que ofrecia la empresa, asi como el seguimiento de los pagos de las cuotas y cobro de la primera cuota ",
+			"website": "https://nacionalseguros.com.bo/blogs/nos-mudamos-casa-nuestras-nuevas-oficinas-en-la-paz",
+			"url": "https://nacionalseguros.com.bo/blogs/nos-mudamos-casa-nuestras-nuevas-oficinas-en-la-paz"
+		},
+		{
+			"name": "Renacer S.R.L",
+  "company": "Renacer S.R.L",
+  "location": "La Paz - Bolivia",
+  "endDate": "2015-12-31",
+  "highlights": [
+    "Venta de lotes de cementerio jardin y servicios excequiales segun el requerimiento de cada persona",
+    "Relaciones Humanas y Personales",
+    "Atencion al cliente personalizada"
+			],
+			"position": "Asesora de ventas",
+			"startDate": "2015-02-03",
+			"summary": "Realizada el asesoramiento y la venta de lotes de cementerio y servicios excequiales a las personas, me ocupaba el seguimiento de los pagos de las cuotas y cobro de la primera cuota asi como el asesoramiento personal de los clientes en relacion a sus requerimientos excequiales ",
+			"website": "https://www.renacer.com.bo/",
+			"url": "https://www.renacer.com.bo/"
 		}
 	],
-	"education": [
+	"volunteer": [
+    {
+			"organization": "Flisol",
+			"position": "Co-organizadora",
+			"url": "https://flisol.info/",
+			"website": "https://flisol.info/",
+			"startDate": "2017-04-10",
+			"endDate": "2017-04-13",
+			"summary": " Festival latinoamericano de instalación de software libre. Ayudé a las personas a elegir la distribución de Linux más adecuada para sus necesidades, ayude en la organizacion del evento y en la realizacion de las ponencias",
+			"highlights": [
+				"Entrega de SO de software libre y explicacion de como usarlo'",
+				"Organizacion de las ponencias"
+			]
+    },
 		{
+			"organization": "Instituto de Investigaciones de Informática - U.M.S.A Carrera de Informática",
+			"position": "Estudiante Investigadora",
+			"startDate": "2016-02-03",
+			"endDate": "2016-12-31"
+		},
+		{
+			"organization": " Tech-U.M.S.A Carrera de Informática",
+			"position": "Co-fundadora",
+			"startDate": "2016-02-03",
+			"endDate": "2017-12-31"
+		},
+		{
+			"organization": "Universidad Mayor de San Andrés(UMSA) - carrera de Informática",
+			"position": "Voluntario",
+			"startDate": "2015-11-13",
+			"endDate": "2017-12-05",
+			"summary": "Me ofrecí como voluntario en diferentes eventos cuando era estudiante en mi universidad.",
+			"highlights": [
+				"Colaborador en la ['Hora del código'](https://hourofcode.com), 10 de noviembre de 2015",
+				"Organizador de Wargame en el XIII Congreso Nacional de Ciencias de la Computación, del 17 al 21 de octubre de 2016",
+				"Co-fundadora de la comunidad del TechUmsa donde se realizaban diferentes cursos de especializacion para toda la comunidad universitaria o tambien exterior que asi lo requerian.",
+				"Co-fundadora del Grupo de Seguridad Informática UMSA, julio de 2017",
+				"Colaboracion en la organizacion del evento Congreso de los 50 años de la FCPN, en el año 2017"
+			],
+			"website": "http://www.informatica.edu.bo/",
+			"url": "http://www.informatica.edu.bo/"
+		}
+	],
+	"education": [{
 			"institution": "Universidad Mayor de San Andrés",
 			"website": "https://www.umsa.bo/",
 			"url": "https://www.umsa.bo/",
-			"area": "Ciencias de la computación",
-			"studyType": "Licenciatura",
+			"area": "Mención en Ciencias de la computación",
+			"studyType": "Licenciatura en Informática",
 			"startDate": "2012-06-10",
 			"endDate": "2019-12-15",
 			"gpa": "",
 			"courses": []
 		}
+
 	],
-	"skills": [
-		{
+	"certificates": [],
+	"awards": [],
+	"publications": [],
+	"skills": [{
 			"name": "Hardware",
 			"level": "Intermediate",
 			"keywords": [
@@ -120,18 +259,21 @@
 				"Python",
 				"Php",
 				"JavaScript",
+				"PHP",
 				"C#",
 				"Java"
 			]
 		},
 		{
 			"name": "Redes",
-			"level": "Basico",
+			"level": "Basico CCNA 1",
 			"keywords": [
+			  "Certificado de aprobación Modulo 1 CCNA cisco",
+				"Packet Tracer",
 				"Pila TCP/IP",
 				"Dispositivos de red",
 				"Configuración de la red",
-				"Dispositivos inalámbricos"
+				"Dispositivos inalambricos"
 			]
 		},
 		{
@@ -180,6 +322,17 @@
 				"Linux LibreOffice",
 				"Mantenimiento de Software",
 				"Gestión del antivirus de Windows"
+
+			]
+		},
+		{
+			"name": "Seguridad Informática",
+			"level": "Basico",
+			"keywords": [
+				"Análisis de Vulnerabilidades",
+				"Prácticas OWASP",
+				"Introducción a la Seguridad Cibernetica",
+				"Web Defense Fundamentals"
 			]
 		},
 		{
@@ -191,11 +344,60 @@
 				"Gestión de copias de seguridad",
 				"Restauración/recuperación de datos"
 			]
+		},
+		{
+			"name": "Análisis de Datos",
+			"level": "Basico",
+			"keywords": [
+				"Analisis y Manejo de datos con IBM Watson",
+				"Analisis de datos con Python",
+				"Bases de Datos para Unidades de Información",
+				"Minería de Datos y Big Data",
+				"Herramientas de Estadística Descriptiva",
+				"Colas de espera",
+				"Manejo y programación en Matlab"
+				
+			]
+		},
+		{
+			"name": "Seguridad de Datos",
+			"level": "Basico",
+			"keywords": [
+				"Protección de datos",
+				"Encriptación",
+				"Firma Digital",
+				"Copias de seguridad",
+				"Principios y Regulaciones de la Seguridad de la Información"
+			]
+		},
+		{
+			"name": "Relaciones Humanas y HelpDesk",
+			"level": "Alto",
+			"keywords": [
+				"Atención al Cliente",
+				"Solucion de Problemas",
+				"Diseño, Análisis y Manejo de Bases de Datos SQLSERVER,MySQL,POSTGRESQL,ACCESS",
+				"Soporte y Mantenimiento Técnico de Software y Hardware",
+				"Ensamblado y Mantenimiento Preventivo",
+				"Manejo de Plataformas virtuales de Enseñanza",
+				"Manejo de OBS y plataformas de Streaming",
+				"Manejo de Excel avanzado",
+				"Manejo de Office",
+				"Aprendizaje con las herramientas de Google For Education"
+			]
+		},
+		{
+			"name": "Licenciatura en Derecho",
+			"level": "Egreso",
+			"keywords": [
+				"Nociones de Delitos Informáticos",
+				"Derecho Internacional"
+				
+			]
 		}
 	],
-	"languages": [
-		{
-			"language": "Espanish",
+	"languages": [{
+			"language": "Spanish",
 			"fluency": "Native Speaker"
 		},
 		{
@@ -208,62 +410,51 @@
 		}
 	],
 	"projects": [
+
 		{
-			"name": "Modelo de simulación para el efecto del cambio climático en los cultivos de maíz de la localidad de Palca",
-			"description": "Proyecto de elaboración de Tesis",
+			"name": "Modelo de simulación para el efecto del cambio climatico en los cultivos de maiz de la localidad de Palca",
+			"description": "Proyecto de elaboracion de Tesis",
 			"highlights": [
-				"Escrito en Php, simulación realizada en Matlab",
-				"Se utiliza Matlab Simulink, Aquacrop, Minitab y Phyton",
-				"Este proyecto fue presentado en la defensa de mi tesis en 2019-Bolivia"
+				"Escrito en Php, simulacion realizada en Matlab",
+				"Se utiliza Matlab simulink, Aquacrop,Minitab y Phyton",
+				"Este proyecto fue presentado en la defensa de mi tesis en el2019-Bolivia"
 			],
 			"keywords": [
 				"Forecasting",
 				"Simulink",
-				"Estadística",
-				"EfectoClimático",
-				"SeriesEstacionarias"
+				"Estadistica",
+				"EfectoClimatico",
+				"SeriesEstacionarias",
+				"Matlab",
+				"Lenguaje de programacion de Matlab"
 			],
 			"startDate": "2019-02-14",
 			"endDate": "2019-12-15",
-			"url": "",
 			"roles": [],
 			"entity": "",
 			"type": "application"
 		}
 	],
-	"volunteer": [
-		{
-			"organization": "Flisol",
-			"position": "Co-organizadora",
-			"url": "https://flisol.info/",
-			"startDate": "2017-04-10",
-			"endDate": "2017-04-13",
-			"summary": "Festival latinoamericano de instalación de software libre. Ayudé a las personas a elegir la distribución de Linux más adecuada para sus necesidades, ayudé en la organización del evento y en la realización de las ponencias",
-			"highlights": [
-				"Entrega de SO de software libre y explicación de cómo usarlo",
-				"Organización de las ponencias"
-			]
-		},
-		{
-			"organization": "Universidad Mayor de San Andrés(UMSA) - carrera de Informática",
-			"position": "Voluntario",
-			"startDate": "2015-11-13",
-			"endDate": "2017-12-05",
-			"summary": "Me ofrecí como voluntario en diferentes eventos cuando era estudiante en mi universidad.",
-			"highlights": [
-				"Colaborador en la 'Hora del código', 10 de noviembre de 2015",
-				"Organizador de Wargame en el XIII Congreso Nacional de Ciencias de la Computación, del 17 al 21 de octubre de 2016",
-				"Co-fundadora de la comunidad TechUmsa donde se realizaban diferentes cursos de especialización para toda la comunidad universitaria",
-				"Co-fundadora del Grupo de Seguridad Informática UMSA, julio de 2017",
-				"Colaboración en la organización del evento Congreso de los 50 años de la FCPN, en el año 2017"
-			],
-			"website": "http://www.informatica.edu.bo/",
-			"url": "http://www.informatica.edu.bo/"
-		}
-	],
-	"certificates": [],
-	"awards": [],
-	"publications": [],
-	"interests": [],
-	"references": []
+	"interests": 
+  [
+    {
+      "name":"Musica",
+      "keywords":[
+        "Musica clásica",
+        "Rock clásico",
+        "Heavy Metal",
+        "Rock Español"
+      ]
+    },
+    {
+      "name":"Ocio",
+      "keywords": [
+        "Lectura",
+        "Tecnología y Programacion",
+        "Metaverso",
+        "Cine",
+        "Videojuegos"
+      ]
+    }
+  ]
 }
