@@ -37,9 +37,9 @@
 	},
 	"work": [{
 			"company": "Sintesis S.A",
-			"name": "Sucursal La Paz",
+			"name": "Sintesis S.A Sucursal La Paz",
 			"location": "La Paz - Bolivia",
-			"endDate": "2023-06-30",
+			"endDate": "2023-07-30",
 			"highlights": ["Administración, analisis de datos sobre transacciones en diferentes plataformas de pago", "Diseño de scripts tanto en el lenguaje Python como en PHP", "Conciliaciones mensuales", "Diseño y direccion de nuevos proyectos", "Diseño de reportes e informes para cualquier requerimiento", "Manejo y Analisis de Log de errores y ascii de transacciones en tiempo real en diferentes servidores en linux"],
 			"position": "Analista de Operaciones",
 			"startDate": "2023-04-14",
@@ -50,7 +50,7 @@
 		
 		{
 			"company": "Facultad de Derecho y Cs. Politicas ",
-			"name": "FDCP",
+			"name": " Facultad de Derecho y Cs. Politicas U.M.S.A - FDCP",
 			"location": "La Paz - Bolivia",
 			"endDate": "2020-12-31",
 			"highlights": ["Administración, analisis y diseño de Bases de datos en mysql,postgresql", "Diseño de scripts tanto en el lenguaje Python como en PHP", "Introducción a Python", "Diseño de workflows y diagramas de flujo", "Diseño y desarrollo de reportes e informes en formato pdf para cualquier requerimiento", "Diseño y manejo de la revista juridica de la Carrera de Derecho", " Recovery o recuperacion de datos perdidos en equipos tecnologicos de la Facultad de Derecho o de los docentes si asi lo requerian"],
@@ -62,7 +62,7 @@
 		},
 		{
 			"company": "Procesos - UMSA",
-			"name": "Unidad de Procesos",
+			"name": " U.M.S.A - Unidad de Procesos",
 			"location": "La Paz - Bolivia",
 			"endDate": "2021-12-31",
 			"highlights": [
@@ -80,7 +80,7 @@
 		},
 		{
 			"company": "Facultad de Derecho y Cs. Politicas - UMSA",
-			"name": "Unidad de Sistemas",
+			"name": "Facultad de Derecho y Cs. Politicas - UMSA - Unidad de Sistemas",
 			"location": "La Paz - Bolivia",
 			"endDate": "2020-12-31",
 			"highlights": [
@@ -132,7 +132,7 @@
 		},
 		{
 			"name": "Instituto de Investigaciones en Informática - Universidad Mayor de San Andrés (UMSA)",
-			"company": "Universidad Mayor de San Andrés (UMSA)",
+			"company": "Instituto de Investigaciones en Informática - Universidad Mayor de San Andrés (UMSA) - Universidad Mayor de San Andrés (UMSA)",
 			"location": "La Paz - Bolivia",
 			"endDate": "2017-12-31",
 			"highlights": [
