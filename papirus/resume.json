@@ -6,7 +6,7 @@
 	},
 	"basics": {
 		"name": "Giovannka Ninoska Antia Oliver Ferrufino",
-		"label": "WINDOWS | LINUX | PYTHON| ANALISIS DE DATOS | PHP | JAVASCRIPT | | POSTMAN BASICO |CYBERSECURITY |INFORMATICA FORENCE|CRIPTOGRAFIA",
+		"label": "WINDOWS | LINUX | PYTHON| ANALISIS DE DATOS | | JAVA POO|| BIG DATA FUNDAMENTALS|PHP | JAVASCRIPT | | POWER BI || TABLEU | | EXCEL-POWER QUERY-POWER PIVOT|| SQL|| POSTMAN BASICO |CYBERSECURITY |INFORMATICA FORENCE|| POSTGRESQL|| MySQL|| SQLSERVER|| ACCESS || PHP|| ANGULAR|| GOOGLE ADS| | FACEBOOK ADS | |CRIPTOGRAFIA",
 		"picture": "profile.jpeg",
 		"email": "kristabhell@gmail.com",
 		"phone": "75871499",
@@ -36,6 +36,21 @@
 		]
 	},
 	"work": [{
+         "company":"Instituto Nacional de Estadistica - INE",
+         "name":"INE Departamental - La Paz",
+         "location":"La Paz - Bolivia",
+         "endDate":"2024-02-28",
+         "highlights":[
+            "Instructora para Agentes Censales, me dedique a dar Instruccion a diferentes personas a nivel departamental en lo referente al Censo CPV 2024"
+         ],
+         "position":"Instructora de Agentes Censales",
+         "startDate":"2024-01-02",
+         "summary":"Realizaba capacitacion a las personas voluntarias para el censo de poblacion y vivienda 2024 asi como a los Jefes de zona",
+         "website":"https://www.ine.gob.bo/",
+         "url":"https://www.ine.gob.bo/"
+      },
+	
+	{
 			"company": "Sintesis S.A",
 			"name": "Sintesis S.A Sucursal La Paz",
 			"location": "La Paz - Bolivia",
@@ -406,6 +421,10 @@
 		},
 		{
 			"language": "Japanish",
+			"fluency": "Basic"
+		},
+		{
+			"language": "Aymara",
 			"fluency": "Basic"
 		}
 	],
