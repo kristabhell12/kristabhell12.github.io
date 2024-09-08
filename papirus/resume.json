@@ -6,12 +6,12 @@
 	},
 	"basics": {
 		"name": "Giovannka Ninoska Antia Oliver Ferrufino",
-		"label": "WINDOWS | LINUX | PYTHON| ANALISIS DE DATOS | | JAVA POO|| BIG DATA FUNDAMENTALS|PHP | JAVASCRIPT | | POWER BI || TABLEU | | EXCEL-POWER QUERY-POWER PIVOT|| SQL|| POSTMAN BASICO |CYBERSECURITY |INFORMATICA FORENCE|| POSTGRESQL|| MySQL|| SQLSERVER|| ACCESS || PHP|| ANGULAR|| GOOGLE ADS| | FACEBOOK ADS | |CRIPTOGRAFIA",
+		"label": "WINDOWS | LINUX | PYTHON| ANALISIS DE DATOS | | JAVA POO|| BIG DATA FUNDAMENTALS|PHP | JAVASCRIPT | | POWER BI || TABLEU | | EXCEL-POWER QUERY-POWER PIVOT|| SQL|| POSTMAN BASICO |CYBERSECURITY |INFORMATICA FORENCE|| POSTGRESQL|| MySQL|| SQLSERVER|| ACCESS || PHP|| ANGULAR|| GOOGLE ADS| | FACEBOOK ADS | |CRIPTOGRAFIA | PHOTOSHOP|| LARAVEL | WORDPRESS | LARAVEL | |GOBENANZA DE INTERNET",
 		"picture": "profile.jpeg",
 		"email": "kristabhell@gmail.com",
 		"phone": "75871499",
 		"website": "",
-		"summary": "Soy una persona muy proactiva y con muchas ganas de seguir aprendiendo y aportando a mi entorno.Me encanta trabajar en equipo pero tambien me gusta mi espacio personal cuando desarrollo algun script o codigo, me gusta resolver mediante algoritmos en los problemas, descubrir mediante el analisis de datos diferentes interrogantes y sacarles todo el provecho posible asi como decifrar como se hacen las cosas. Adoro desarmar enigmas y crear soluciones.Soy empatica con mi entorno pero no invasiva, me emociono mucho siempre que aprendo algo nuevo",
+		"summary": "Soy una persona muy proactiva, con mucha energia y con ideas en constante evolucion.Me encanta trabajar en equipo pero tambien me gusta mi espacio personal cuando desarrollo proyectos o algun script o codigo, me gusta resolver mediante algoritmos todo tipo de problemas, descubrir mediante el analisis de datos diferentes interrogantes y sacarles todo el provecho posible asi como decifrar como se hacen las cosas. Adoro desarmar enigmas y crear soluciones.Soy empatica con mi entorno pero no invasiva, me emociono mucho siempre que aprendo algo nuevo",
 		"location": {
 			"countryCode": "BO",
 			"country": "Bolivia",
@@ -36,6 +36,20 @@
 		]
 	},
 	"work": [{
+         "company":"Organo Electoral Plurinacional",
+         "name":"Tribunal Supremo Electoral - La Paz",
+         "location":"La Paz - Bolivia",
+         "endDate":"2024-09-18",
+         "highlights":[
+            "Enlace TSE de Educacion para la Democracia Intercultural"
+         ],
+         "position":"Tecnico I - Educacion para la Democracia Intercultural",
+         "startDate":"2024-04-04",
+         "summary":"Capacitacion a diferentes actores sobre Democracia Intercultural, manejo de archivos, gestion de proyectos para educacion, realizacion de centralizadores, notas, participacion en ferias tanto rurales como urbanas",
+         "website":"https://www.oep.org.bo/",
+         "url":"https://www.lapaz.oep.org.bo/"
+      },
+	{
          "company":"Instituto Nacional de Estadistica - INE",
          "name":"INE Departamental - La Paz",
          "location":"La Paz - Bolivia",
@@ -106,6 +120,7 @@
 				"Mantenimiento de VoIP",
 				"configuración y administración de switches",
 				"Administración de control de acceso",
+				"D!iseño  de logotipos y edicion de videos",
 				"Trabajé con un equipo de 8 personas",
 				"Capacitacion tanto a docentes y a estudiantes en el manejo de plataformas virtuales y e-learning"
 			],
@@ -141,7 +156,7 @@
 			"highlights": [],
 			"position": "Asistente de oficina a tiempo completo (pasante)",
 			"startDate": "2017-01-31",
-			"summary": " Trabajé como asistente de oficina ayudando con procesos administrativos como mensajería, manejo de documentación, publicación, diseño y desarrollo de paginas web y organización de eventos.",
+			"summary": " Trabajé como asistente de oficina ayudando con procesos administrativos como mensajería, manejo de documentación, publicación, diseño de logotipos, desarrollo de paginas web con Wordpress y organización de eventos.",
 			"website": "http://www.fcpn.edu.bo/",
 			"url": "http://www.fcpn.edu.bo/"
 		},
@@ -250,6 +265,17 @@
 			"endDate": "2019-12-15",
 			"gpa": "",
 			"courses": []
+		},
+		{
+			"institution": "Universidad Cefi Saint Paul",
+			"website": "https://www.umsa.bo/",
+			"url": "https://www.umsa.bo/",
+			"area": "Derecho Internacional",
+			"studyType": "Licenciatura(Egreso) en Derecho y Ciencias Juridicas",
+			"startDate": "2007-06-10",
+			"endDate": "2011-02-22",
+			"gpa": "",
+			"courses": []
 		}
 
 	],
@@ -268,7 +294,7 @@
 			]
 		},
 		{
-			"name": "Lenguajes de programación",
+			"name": "Lenguajes de programación y Frameworks",
 			"level": "Intermediate",
 			"keywords": [
 				"Python",
@@ -276,7 +302,11 @@
 				"JavaScript",
 				"PHP",
 				"C#",
-				"Java"
+				"Java",
+				"Laravel",
+				"Angular",
+				"Simpony",
+				"Django"
 			]
 		},
 		{
@@ -326,7 +356,8 @@
 				"SQLite",
 				"editor vi",
 				"Copias de seguridad y restauración",
-				"VMware"
+				"VMware",
+				"Photoshop, Paint, Adobe Photoshop, Gimp"
 			]
 		},
 		{
@@ -336,7 +367,11 @@
 				"Windows Office",
 				"Linux LibreOffice",
 				"Mantenimiento de Software",
-				"Gestión del antivirus de Windows"
+				"Gestión del antivirus de Windows",
+				"Paginas web, logotipos",
+				"Laravel",
+				"WordPress",
+				"Git y Github"
 
 			]
 		},
