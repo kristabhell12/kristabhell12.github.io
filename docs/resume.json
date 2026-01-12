@@ -1,460 +1,101 @@
 {
-	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
-	"meta": {
-		"theme": "elegant",
-		"lastModified": "2017-12-24T15:53:00"
-	},
-	"basics": {
-		"name": "Giovannka Ninoska Antia Oliver Ferrufino",
-		"label": "WINDOWS | LINUX | PYTHON| ANALISIS DE DATOS | PHP | JAVASCRIPT | | POSTMAN BASICO |CYBERSECURITY |INFORMATICA FORENCE|CRIPTOGRAFIA",
-		"picture": "profile.jpeg",
-		"email": "kristabhell@gmail.com",
-		"phone": "75871499",
-		"website": "",
-		"summary": "Soy una persona muy proactiva y con muchas ganas de seguir aprendiendo y aportando a mi entorno.Me encanta trabajar en equipo pero tambien me gusta mi espacio personal cuando desarrollo algun script o codigo, me gusta resolver mediante algoritmos en los problemas, descubrir mediante el analisis de datos diferentes interrogantes y sacarles todo el provecho posible asi como decifrar como se hacen las cosas. Adoro desarmar enigmas y crear soluciones.Soy empatica con mi entorno pero no invasiva, me emociono mucho siempre que aprendo algo nuevo",
-		"location": {
-			"countryCode": "BO",
-			"country": "Bolivia",
-			"city": "La Paz - Bolivia"
-		},
-		"profiles": [{
-				"network": "LinkedIn",
-				"username": "kristabhell",
-				"url": "https://www.linkedin.com/in/giovannka-oliver-491740115/"
-			},
-			{
-				"network": "Twitter",
-				"username": "@GiovannkaOF",
-				"url": "https://twitter.com/GiovannkaOF"
-			},
-			{
-				"network": "GitHub",
-				"username": "kristabhell12",
-				"url": "https://github.com/kristabhell12"
-			}
+  "profile": {
+    "name": "Gio",
+    "title": "Data Analyst | Systems & Information Support",
+    "summary": "Analista de datos con experiencia en soporte de sistemas, bases de datos y seguridad de la información. Capacidad para analizar, limpiar y visualizar datos utilizando Python, herramientas BI y hojas de cálculo avanzadas. Experiencia en mantenimiento de software y hardware, soporte a usuarios y administración básica de servidores en entornos académicos.",
+    "location": "Bolivia",
+    "email": "",
+    "focus": [
+      "Data Analysis",
+      "QA / Quality Assurance",
+      "Systems Support",
+      "Information Security (basic)"
+    ]
+  },
 
-		]
-	},
-	"work": [{
-			"company": "Sintesis S.A",
-			"name": "Sintesis S.A Sucursal La Paz",
-			"location": "La Paz - Bolivia",
-			"endDate": "2023-07-30",
-			"highlights": ["Administración, analisis de datos sobre transacciones en diferentes plataformas de pago", "Diseño de scripts tanto en el lenguaje Python como en PHP", "Conciliaciones mensuales", "Diseño y direccion de nuevos proyectos", "Diseño de reportes e informes para cualquier requerimiento", "Manejo y Analisis de Log de errores y ascii de transacciones en tiempo real en diferentes servidores en linux"],
-			"position": "Analista de Operaciones",
-			"startDate": "2023-04-14",
-			"summary": "Realizaba el monitoreo de los pagos y trasacciones realizadas por los diferentes canales y clientes a mi cargo, asi como la solucion de los diferentes problemas en relacion a dichos pagos, atencion personalizada a los clientes en relacion a reclamos de pagos y transacciones, reportes requeridos y demas, conciliaciones mensuales y quincenales segun requerimento tanto con los clientes como con los bancos que conciliaban segun los datos de las transacciones registradas en el sistema de Sintesis",
-			"website": "https://www.sistesis.com.bo/",
-			"url": "http://www.sintesis.com.bo/"
-		},
-		
-		{
-			"company": "Facultad de Derecho y Cs. Politicas ",
-			"name": " Facultad de Derecho y Cs. Politicas U.M.S.A - FDCP",
-			"location": "La Paz - Bolivia",
-			"endDate": "2020-12-31",
-			"highlights": ["Administración, analisis y diseño de Bases de datos en mysql,postgresql", "Diseño de scripts tanto en el lenguaje Python como en PHP", "Introducción a Python", "Diseño de workflows y diagramas de flujo", "Diseño y desarrollo de reportes e informes en formato pdf para cualquier requerimiento", "Diseño y manejo de la revista juridica de la Carrera de Derecho", " Recovery o recuperacion de datos perdidos en equipos tecnologicos de la Facultad de Derecho o de los docentes si asi lo requerian"],
-			"position": "Desarrollo de software y manejo de base de datos mysql y postgresql",
-			"startDate": "2018-07-18",
-			"summary": "Realizaba desarrollo de software cuando era requerido segun se presentaba para las diferentes unidades administrativasde laFacultad de Derecho asi como tambien realizeuna parte para la Firma Digital que se utiliza en los Certificados Unicos de Notas de esta facultad para los estudiantes",
-			"website": "http://www.carrera-derecho.edu.bo/",
-			"url": "http://www.carrera-derecho.edu.bo/ "
-		},
-		{
-			"company": "Procesos - UMSA",
-			"name": " U.M.S.A - Unidad de Procesos",
-			"location": "La Paz - Bolivia",
-			"endDate": "2021-12-31",
-			"highlights": [
-				"Diseño y Manejo de la Base de Datos de los procesos",
-				"Atencion y asesoramiento en Plataforma a la comunidad Universitaria",
-				"Transcripcion de Datos",
-				"Archivo de documentos legales",
-				"Trabajé con un equipo de 7 personas"
-			],
-			"position": "Soporte Tecnico y Atencion de Plataforma al usuario ",
-			"startDate": "2018-07-01",
-			"summary": "Realizaba al mismo tiempo el mantenimiento y solucion de problemas de todos los equipos tecnologicos de la Facultad de Derecho,tanto en lo referente al hardware como al software de los mismos.Atendia en plataforma al cliente a docentes y estudiantes en sus diversos requerimientos.Entre otras muchas mis principales funciones eran:",
-			"website": "http://www.carrera-derecho.edu.bo/",
-			"url": "http://www.carrera-derecho.edu.bo/"
-		},
-		{
-			"company": "Facultad de Derecho y Cs. Politicas - UMSA",
-			"name": "Facultad de Derecho y Cs. Politicas - UMSA - Unidad de Sistemas",
-			"location": "La Paz - Bolivia",
-			"endDate": "2020-12-31",
-			"highlights": [
-				"Mantenimiento del software",
-				"Mantenimiento de hardware",
-				"Solución de problemas de red",
-				"Problemas del usuario",
-				"Mantenimiento de VoIP",
-				"configuración y administración de switches",
-				"Administración de control de acceso",
-				"Trabajé con un equipo de 8 personas",
-				"Capacitacion tanto a docentes y a estudiantes en el manejo de plataformas virtuales y e-learning"
-			],
-			"position": "Soporte Tecnico y Atencion de Plataforma al usuario ",
-			"startDate": "2018-07-01",
-			"summary": "Realizaba al mismo tiempo el mantenimiento y solucion de problemas de todos los equipos tecnologicos de la Facultad de Derecho,tanto en lo referente al hardware como al software de los mismos.Atendia en plataforma al cliente a docentes y estudiantes en sus diversos requerimientos.Entre otras muchas mis principales funciones eran:",
-			"website": "http://www.carrera-derecho.edu.bo/",
-			"url": "http://www.carrera-derecho.edu.bo/"
-		},
-		{
-			"name": "Educomser",
-			"company": "Educomser",
-			"location": "La Paz - Bolivia",
-			"endDate": "2020-07-28",
-			"highlights": [
-				"Administración, analisis y diseño de Bases de datos en access,mysql,postgresql,sqlserver",
-				"Introducción a la programacion orientada a objetos",
-				"Introducción a la programacion .net en C#",
-				"Php"
+  "skills": {
+    "data_analysis": [
+      "Python",
+      "Pandas",
+      "Análisis de datos",
+      "Power BI",
+      "Excel avanzado"
+    ],
+    "databases": [
+      "MySQL",
+      "PostgreSQL",
+      "SQL Server",
+      "Microsoft Access",
+      "SQL"
+    ],
+    "systems": [
+      "Linux",
+      "Soporte y mantenimiento de software",
+      "Soporte y mantenimiento de hardware",
+      "Administración básica de servidores",
+      "Computación en la nube (básico)",
+      "Bash"
+    ],
+    "technical_knowledge": [
+      "PHP",
+      "Laravel",
+      "COBOL"
+    ],
+    "tools": [
+      "GitHub",
+      "Power BI",
+      "Excel",
+      "Herramientas ofimáticas"
+    ],
+    "soft_skills": [
+      "Análisis crítico",
+      "Resolución de problemas",
+      "Atención y soporte a usuarios",
+      "Documentación técnica",
+      "Trabajo con datos sensibles",
+      "Responsabilidad y organización"
+    ]
+  },
 
-			],
-			"position": "Tutoria Tiempo Parcial",
-			"startDate": "2018-02-13",
-			"summary": " Realizaba tutorias  ayudando a los estudiantes a mejorar sus habilidades de programación yadministración de bases de datos, cada curso tiene una duración de 3 o 2 semanas y esta dividido por modulos en diferentes horarios.Tanto de forma presencial como de manera virtual",
-			"website": "https://www.educomser.com/",
-			"url": "https://www.educomser.com/"
-		},
-		{
-			"name": "Facultad de Ciencias Puras y Naturales - Universidad Mayor de San Andrés (UMSA)",
-			"company": "Facultad de Ciencias Puras y Naturales - Universidad Mayor de San Andrés (UMSA)",
-			"location": "La Paz - Bolivia",
-			"endDate": "2017-01-05",
-			"highlights": [],
-			"position": "Asistente de oficina a tiempo completo (pasante)",
-			"startDate": "2017-01-31",
-			"summary": " Trabajé como asistente de oficina ayudando con procesos administrativos como mensajería, manejo de documentación, publicación, diseño y desarrollo de paginas web y organización de eventos.",
-			"website": "http://www.fcpn.edu.bo/",
-			"url": "http://www.fcpn.edu.bo/"
-		},
-		{
-			"name": "Instituto de Investigaciones en Informática - Universidad Mayor de San Andrés (UMSA)",
-			"company": "Instituto de Investigaciones en Informática - Universidad Mayor de San Andrés (UMSA) - Universidad Mayor de San Andrés (UMSA)",
-			"location": "La Paz - Bolivia",
-			"endDate": "2017-12-31",
-			"highlights": [
-				"Colaborar con los eventos de divulgación de la nueva malla curricular",
-				"Trabajar en equipo para cumplir con los plazos establecidos",
-				"Brindar apoyo y ayuda a los docentes investigadores en sus diferentes tareas de investigacion a su cargo",
-				"Desarrollar los sistemas de informacion necesarias para el cumplimiento de los objetivos"
-			],
-			"position": "Desarrolladora e Investigadora a tiempo parcial (Auxiliar pasante)",
-			"startDate": "2017-02-01",
-			"summary": "Me encargué de diseñar un sistema en React y postgrest. Trabajé con un equipo de 4 personas, la aplicación fue desarrollada para ayudar a  guardar los datos sobre el nuevo diseño curricular de la Carrera de Informatica en su fase de actualizacion el diseño curricular. Mis funciones fueron:",
-			"website": "http://instituto.informatica.edu.bo/",
-			"url": "http://instituto.informatica.edu.bo/"
-		},
-		{
-			"name": "Nacional Vida de Seguros",
-			"company": "Nacional Vida",
-			"location": "La Paz - Bolivia",
-			"endDate": "2014-02-05",
-			"highlights": [
-				"Asesoramiento y venta de todo tipo de seguros de vida, personales, grupales e industriales",
-				"Normativa de seguros",
-				"Atencion al cliente personalizada"
-
-
-			],
-			"position": "Asesora de seguros",
-			"startDate": "2015-12-31",
-			"summary": "Realizada el asesoramiento y la venta de los diferentes tipos de seguros que ofrecia la empresa, asi como el seguimiento de los pagos de las cuotas y cobro de la primera cuota ",
-			"website": "https://nacionalseguros.com.bo/blogs/nos-mudamos-casa-nuestras-nuevas-oficinas-en-la-paz",
-			"url": "https://nacionalseguros.com.bo/blogs/nos-mudamos-casa-nuestras-nuevas-oficinas-en-la-paz"
-		},
-		{
-			"name": "Renacer S.R.L",
-  "company": "Renacer S.R.L",
-  "location": "La Paz - Bolivia",
-  "endDate": "2015-12-31",
-  "highlights": [
-    "Venta de lotes de cementerio jardin y servicios excequiales segun el requerimiento de cada persona",
-    "Relaciones Humanas y Personales",
-    "Atencion al cliente personalizada"
-			],
-			"position": "Asesora de ventas",
-			"startDate": "2015-02-03",
-			"summary": "Realizada el asesoramiento y la venta de lotes de cementerio y servicios excequiales a las personas, me ocupaba el seguimiento de los pagos de las cuotas y cobro de la primera cuota asi como el asesoramiento personal de los clientes en relacion a sus requerimientos excequiales ",
-			"website": "https://www.renacer.com.bo/",
-			"url": "https://www.renacer.com.bo/"
-		}
-	],
-	"volunteer": [
+  "experience": [
     {
-			"organization": "Flisol",
-			"position": "Co-organizadora",
-			"url": "https://flisol.info/",
-			"website": "https://flisol.info/",
-			"startDate": "2017-04-10",
-			"endDate": "2017-04-13",
-			"summary": " Festival latinoamericano de instalación de software libre. Ayudé a las personas a elegir la distribución de Linux más adecuada para sus necesidades, ayude en la organizacion del evento y en la realizacion de las ponencias",
-			"highlights": [
-				"Entrega de SO de software libre y explicacion de como usarlo'",
-				"Organizacion de las ponencias"
-			]
-    },
-		{
-			"organization": "Instituto de Investigaciones de Informática - U.M.S.A Carrera de Informática",
-			"position": "Estudiante Investigadora",
-			"startDate": "2016-02-03",
-			"endDate": "2016-12-31"
-		},
-		{
-			"organization": " Tech-U.M.S.A Carrera de Informática",
-			"position": "Co-fundadora",
-			"startDate": "2016-02-03",
-			"endDate": "2017-12-31"
-		},
-		{
-			"organization": "Universidad Mayor de San Andrés(UMSA) - carrera de Informática",
-			"position": "Voluntario",
-			"startDate": "2015-11-13",
-			"endDate": "2017-12-05",
-			"summary": "Me ofrecí como voluntario en diferentes eventos cuando era estudiante en mi universidad.",
-			"highlights": [
-				"Colaborador en la ['Hora del código'](https://hourofcode.com), 10 de noviembre de 2015",
-				"Organizador de Wargame en el XIII Congreso Nacional de Ciencias de la Computación, del 17 al 21 de octubre de 2016",
-				"Co-fundadora de la comunidad del TechUmsa donde se realizaban diferentes cursos de especializacion para toda la comunidad universitaria o tambien exterior que asi lo requerian.",
-				"Co-fundadora del Grupo de Seguridad Informática UMSA, julio de 2017",
-				"Colaboracion en la organizacion del evento Congreso de los 50 años de la FCPN, en el año 2017"
-			],
-			"website": "http://www.informatica.edu.bo/",
-			"url": "http://www.informatica.edu.bo/"
-		}
-	],
-	"education": [{
-			"institution": "Universidad Mayor de San Andrés",
-			"website": "https://www.umsa.bo/",
-			"url": "https://www.umsa.bo/",
-			"area": "Mención en Ciencias de la computación",
-			"studyType": "Licenciatura en Informática",
-			"startDate": "2012-06-10",
-			"endDate": "2019-12-15",
-			"gpa": "",
-			"courses": []
-		}
-
-	],
-	"certificates": [],
-	"awards": [],
-	"publications": [],
-	"skills": [{
-			"name": "Hardware",
-			"level": "Intermediate",
-			"keywords": [
-				"Montaje",
-				"Mantenimiento",
-				"Periféricos",
-				"Solución de problemas",
-				"Gestión de dispositivos"
-			]
-		},
-		{
-			"name": "Lenguajes de programación",
-			"level": "Intermediate",
-			"keywords": [
-				"Python",
-				"Php",
-				"JavaScript",
-				"PHP",
-				"C#",
-				"Java"
-			]
-		},
-		{
-			"name": "Redes",
-			"level": "Basico CCNA 1",
-			"keywords": [
-			  "Certificado de aprobación Modulo 1 CCNA cisco",
-				"Packet Tracer",
-				"Pila TCP/IP",
-				"Dispositivos de red",
-				"Configuración de la red",
-				"Dispositivos inalambricos"
-			]
-		},
-		{
-			"name": "Sistemas operativos",
-			"level": "Master",
-			"keywords": [
-				"Linux",
-				"Windows",
-				"Android",
-				"IOS",
-				"macOS",
-				"Debian",
-				"Ubuntu",
-				"Windows-server",
-				"Windows 98/ME/XP/7/8/10"
-			]
-		},
-		{
-			"name": "Administración de servidores",
-			"level": "Basico",
-			"keywords": [
-				"Configuración del firewall de Linux",
-				"Monitoreo de puertos",
-				"Gestión de cuentas de usuario de Linux",
-				"Bash scripting",
-				"Lenguaje de consulta SQL",
-				"Administración de Servicios",
-				"Docker",
-				"Digital Ocean",
-				"Virtualbox",
-				"MySQL",
-				"Servidor Linux Debian",
-				"Servidor Linux Ubuntu",
-				"Gestión de base de datos",
-				"SQLite",
-				"editor vi",
-				"Copias de seguridad y restauración",
-				"VMware"
-			]
-		},
-		{
-			"name": "Software",
-			"level": "Master",
-			"keywords": [
-				"Windows Office",
-				"Linux LibreOffice",
-				"Mantenimiento de Software",
-				"Gestión del antivirus de Windows"
-
-			]
-		},
-		{
-			"name": "Seguridad Informática",
-			"level": "Basico",
-			"keywords": [
-				"Análisis de Vulnerabilidades",
-				"Prácticas OWASP",
-				"Introducción a la Seguridad Cibernetica",
-				"Web Defense Fundamentals"
-			]
-		},
-		{
-			"name": "Seguridad",
-			"level": "Basico",
-			"keywords": [
-				"Protección antivirus de Windows",
-				"Mantenimiento y gestión de la versión del software",
-				"Gestión de copias de seguridad",
-				"Restauración/recuperación de datos"
-			]
-		},
-		{
-			"name": "Análisis de Datos",
-			"level": "Basico",
-			"keywords": [
-				"Analisis y Manejo de datos con IBM Watson",
-				"Analisis de datos con Python",
-				"Bases de Datos para Unidades de Información",
-				"Minería de Datos y Big Data",
-				"Herramientas de Estadística Descriptiva",
-				"Colas de espera",
-				"Manejo y programación en Matlab"
-				
-			]
-		},
-		{
-			"name": "Seguridad de Datos",
-			"level": "Basico",
-			"keywords": [
-				"Protección de datos",
-				"Encriptación",
-				"Firma Digital",
-				"Copias de seguridad",
-				"Principios y Regulaciones de la Seguridad de la Información"
-			]
-		},
-		{
-			"name": "Relaciones Humanas y HelpDesk",
-			"level": "Alto",
-			"keywords": [
-				"Atención al Cliente",
-				"Solucion de Problemas",
-				"Diseño, Análisis y Manejo de Bases de Datos SQLSERVER,MySQL,POSTGRESQL,ACCESS",
-				"Soporte y Mantenimiento Técnico de Software y Hardware",
-				"Ensamblado y Mantenimiento Preventivo",
-				"Manejo de Plataformas virtuales de Enseñanza",
-				"Manejo de OBS y plataformas de Streaming",
-				"Manejo de Excel avanzado",
-				"Manejo de Office",
-				"Aprendizaje con las herramientas de Google For Education"
-			]
-		},
-		{
-			"name": "Licenciatura en Derecho",
-			"level": "Egreso",
-			"keywords": [
-				"Nociones de Delitos Informáticos",
-				"Derecho Internacional"
-				
-			]
-		}
-	],
-	"languages": [{
-			"language": "Spanish",
-			"fluency": "Native Speaker"
-		},
-		{
-			"language": "English",
-			"fluency": "B1"
-		},
-		{
-			"language": "Japanish",
-			"fluency": "Basic"
-		}
-	],
-	"projects": [
-
-		{
-			"name": "Modelo de simulación para el efecto del cambio climatico en los cultivos de maiz de la localidad de Palca",
-			"description": "Proyecto de elaboracion de Tesis",
-			"highlights": [
-				"Escrito en Php, simulacion realizada en Matlab",
-				"Se utiliza Matlab simulink, Aquacrop,Minitab y Phyton",
-				"Este proyecto fue presentado en la defensa de mi tesis en el2019-Bolivia"
-			],
-			"keywords": [
-				"Forecasting",
-				"Simulink",
-				"Estadistica",
-				"EfectoClimatico",
-				"SeriesEstacionarias",
-				"Matlab",
-				"Lenguaje de programacion de Matlab"
-			],
-			"startDate": "2019-02-14",
-			"endDate": "2019-12-15",
-			"roles": [],
-			"entity": "",
-			"type": "application"
-		}
-	],
-	"interests": 
-  [
-    {
-      "name":"Musica",
-      "keywords":[
-        "Musica clásica",
-        "Rock clásico",
-        "Heavy Metal",
-        "Rock Español"
+      "company": "Universidad Mayor de San Andrés",
+      "area": "Carrera de Ciencias Químicas",
+      "role": "Soporte de Sistemas",
+      "period": "Marzo 2025 – Diciembre 2025",
+      "description": "Soporte técnico y operativo a sistemas informáticos utilizados en el entorno académico.",
+      "responsibilities": [
+        "Soporte y mantenimiento de sistemas informáticos académicos",
+        "Gestión y mantenimiento de bases de datos",
+        "Soporte técnico a usuarios (software y hardware)",
+        "Apoyo en tareas relacionadas con seguridad de la información",
+        "Manejo y análisis básico de datos académicos"
+      ],
+      "stack": [
+        "Linux",
+        "MySQL",
+        "PostgreSQL",
+        "Excel",
+        "Python",
+        "Soporte de sistemas"
       ]
-    },
+    }
+  ],
+
+  "education": [
     {
-      "name":"Ocio",
-      "keywords": [
-        "Lectura",
-        "Tecnología y Programacion",
-        "Metaverso",
-        "Cine",
-        "Videojuegos"
-      ]
+      "institution": "Universidad Mayor de San Andrés",
+      "program": "Formación universitaria (en curso / concluida según corresponda)",
+      "area": "Tecnología / Sistemas / Datos"
+    }
+  ],
+
+  "projects": [],
+  "certifications": [],
+  "languages": [
+    {
+      "language": "Español",
+      "level": "Nativo"
     }
   ]
 }
