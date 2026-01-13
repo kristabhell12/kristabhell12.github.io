@@ -2,93 +2,112 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>Gio – Data Analyst</title>
+  <title>Giovannka Ninoska Antia Oliver Ferrufino – CV</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <main class="container">
-    <header class="header">
-      <img src="profile.jpeg" alt="Foto de perfil" class="avatar" />
-      <div>
-        <h1 id="name"></h1>
-        <h2 id="title"></h2>
-        <p id="summary"></p>
-      </div>
-    </header>
+  <div class="cv">
 
-    <section>
-      <h3>Perfil profesional</h3>
-      <p id="focus"></p>
-    </section>
+    <!-- COLUMNA IZQUIERDA -->
+    <aside class="sidebar">
+      <img src="profile.jpg" alt="Foto de perfil" class="profile-pic" />
 
-    <section>
-      <h3>Habilidades</h3>
-      <div id="skills" class="skills-grid"></div>
-    </section>
+      <h1>Giovannka Ninoska<br>Antia Oliver Ferrufino</h1>
+      <h2>Data Analyst · Systems & Information Support</h2>
+      <h3>Analista de Datos · Soporte de Sistemas</h3>
 
-    <section>
-      <h3>Experiencia</h3>
-      <div id="experience"></div>
-    </section>
+      <section>
+        <h4>Contacto</h4>
+        <p>📍 Bolivia</p>
+        <p>✉️ kristabhell@gmail.com</p>
+        <p>🔗 github.com/kristabhell12</p>
+      </section>
 
-    <section>
-      <h3>Educación</h3>
-      <div id="education"></div>
-    </section>
+      <section>
+        <h4>Idiomas</h4>
+        <ul>
+          <li>Español – Nativo</li>
+          <li>Inglés – Intermedio</li>
+          <li>Japonés – Básico</li>
+          <li>Aymara – Básico</li>
+        </ul>
+      </section>
 
-    <footer class="footer">
-      <p>CV actualizado automáticamente desde JSON</p>
-    </footer>
-  </main>
+      <section>
+        <h4>Habilidades Técnicas</h4>
+        <ul>
+          <li>Python · Pandas</li>
+          <li>Análisis de Datos</li>
+          <li>Power BI</li>
+          <li>Excel Avanzado</li>
+          <li>SQL · MySQL · PostgreSQL</li>
+          <li>SQL Server · Access</li>
+          <li>Linux · Bash</li>
+          <li>Git · GitHub</li>
+          <li>Computación en la nube (básico)</li>
+          <li>Soporte y mantenimiento HW/SW</li>
+          <li>Seguridad de la información (básico)</li>
+          <li>QA · Validación</li>
+          <li>PHP · Laravel · COBOL</li>
+        </ul>
+      </section>
+    </aside>
 
-  <script>
-    fetch("resume.json")
-      .then(res => res.json())
-      .then(data => {
-        // Perfil
-        document.getElementById("name").textContent = data.profile.name;
-        document.getElementById("title").textContent = data.profile.title;
-        document.getElementById("summary").textContent = data.profile.summary;
-        document.getElementById("focus").textContent = data.profile.focus.join(" · ");
+    <!-- COLUMNA DERECHA -->
+    <main class="content">
 
-        // Skills
-        const skillsDiv = document.getElementById("skills");
-        Object.entries(data.skills).forEach(([category, items]) => {
-          const block = document.createElement("div");
-          block.className = "skill-block";
-          block.innerHTML = `<h4>${category.replace("_", " ")}</h4>`;
-          items.forEach(skill => {
-            const span = document.createElement("span");
-            span.textContent = skill;
-            block.appendChild(span);
-          });
-          skillsDiv.appendChild(block);
-        });
+      <section>
+        <h3>Perfil Profesional</h3>
+        <p>
+          Analista de datos con experiencia en soporte de sistemas, bases de datos
+          y seguridad de la información. Capacidad para analizar, limpiar y
+          visualizar datos utilizando Python, herramientas BI y hojas de cálculo
+          avanzadas. Experiencia en mantenimiento de software y hardware, soporte
+          a usuarios y trabajo con información sensible en entornos académicos e
+          institucionales.
+        </p>
+      </section>
 
-        // Experiencia
-        const expDiv = document.getElementById("experience");
-        data.experience.forEach(exp => {
-          const div = document.createElement("div");
-          div.className = "card";
-          div.innerHTML = `
-            <h4>${exp.role} – ${exp.company}</h4>
-            <p class="period">${exp.period}</p>
-            <ul>${exp.responsibilities.map(r => `<li>${r}</li>`).join("")}</ul>
-          `;
-          expDiv.appendChild(div);
-        });
+      <section>
+        <h3>Experiencia Laboral</h3>
 
-        // Educación
-        const eduDiv = document.getElementById("education");
-        data.education.forEach(e => {
-          const div = document.createElement("div");
-          div.className = "card";
-          div.innerHTML = `<strong>${e.institution}</strong><p>${e.program}</p>`;
-          eduDiv.appendChild(div);
-        });
-      });
-  </script>
+        <div class="job">
+          <h4>Soporte de Sistemas</h4>
+          <span>Universidad Mayor de San Andrés – Carrera de Ciencias Químicas</span>
+          <small>Marzo 2025 – Diciembre 2025</small>
+          <ul>
+            <li>Soporte y mantenimiento de sistemas informáticos académicos</li>
+            <li>Gestión y mantenimiento de bases de datos</li>
+            <li>Soporte técnico a usuarios (software y hardware)</li>
+            <li>Apoyo en seguridad de la información</li>
+            <li>Análisis básico de datos académicos</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <h4>Soporte Técnico / Sistemas</h4>
+          <span>Instituciones Públicas y Privadas (INE, TSE, SÍNTESIS)</span>
+          <small>Años anteriores</small>
+          <ul>
+            <li>Soporte técnico a usuarios finales</li>
+            <li>Mantenimiento de equipos y software</li>
+            <li>Gestión de información y bases de datos</li>
+            <li>Validación y control de calidad de datos</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h3>Educación y Formación</h3>
+        <p>
+          <strong>Universidad Mayor de San Andrés</strong><br />
+          Formación en Tecnología, Sistemas y Análisis de Datos
+        </p>
+      </section>
+
+    </main>
+  </div>
 </body>
 </html>
