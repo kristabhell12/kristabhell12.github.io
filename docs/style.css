@@ -103,3 +103,38 @@ body {
 .job ul {
   margin-top: 8px;
 }
+
+/* BOTÓN PDF */
+.actions {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.actions button {
+  background: #1f2933;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.actions button:hover {
+  background: #111827;
+}
+
+/* PDF */
+@media print {
+  body {
+    background: white;
+  }
+
+  .cv {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .actions {
+    display: none;
+  }
+}
