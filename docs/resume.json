@@ -1,17 +1,21 @@
 {
-  "profile": {
-    "name": "Gio",
-    "title": "Data Analyst | Systems & Information Support",
-    "summary": "Analista de datos con experiencia en soporte de sistemas, bases de datos y seguridad de la información. Capacidad para analizar, limpiar y visualizar datos utilizando Python, herramientas BI y hojas de cálculo avanzadas. Experiencia en mantenimiento de software y hardware, soporte a usuarios y administración básica de servidores en entornos académicos.",
-    "location": "Bolivia",
-    "email": "",
-    "focus": [
-      "Data Analysis",
-      "QA / Quality Assurance",
-      "Systems Support",
-      "Information Security (basic)"
-    ]
+  "basics": {
+  "name": "Gio",
+  "label": "Data Analyst | Systems & Information Support",
+  "summary": "Analista de datos con experiencia en soporte de sistemas...",
+  "location": {
+    "countryCode": "BO",
+    "region": "Bolivia"
   },
+  "profiles": [
+    {
+      "network": "GitHub",
+      "username": "kristabhell12",
+      "url": "https://github.com/kristabhell12"
+    }
+  ]
+},
+
 
   "skills": {
     "data_analysis": [
